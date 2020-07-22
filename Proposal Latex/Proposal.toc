@@ -1,0 +1,60 @@
+\babel@toc {bahasa}{}
+\contentsline {chapter}{HALAMAN JUDUL}{i}{section*.1}%
+\contentsline {chapter}{HALAMAN PENGESAHAN}{ii}{section*.2}%
+\contentsline {chapter}{DAFTAR ISI}{iii}{section*.3}%
+\contentsline {chapter}{DAFTAR TABEL}{v}{section*.5}%
+\contentsline {chapter}{DAFTAR GAMBAR}{vi}{section*.7}%
+\contentsline {chapter}{INTISARI}{vii}{chapter*.9}%
+\babel@toc {english}{}
+\contentsline {chapter}{ABSTRACT}{viii}{chapter*.10}%
+\babel@toc {bahasa}{}
+\contentsline {chapter}{\numberline {I}PENDAHULUAN}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1.}Latar Belakang Masalah}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2.}Rumusan Masalah}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3.}Batasan Masalah}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4.}Tujuan Penelitian}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5.}Manfaat Penelitian}{4}{section.1.5}%
+\contentsline {chapter}{\numberline {II}TINJAUAN PUSTAKA}{5}{chapter.2}%
+\contentsline {chapter}{\numberline {III}LANDASAN TEORI}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1.}Computer Vision}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2.}Citra Digital}{9}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1.}Citra RGB}{10}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2.}Citra HSV}{10}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3.}Operasi Morfologi}{11}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1.}Erosi}{11}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2.}Dilasi}{12}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3.}Opening}{12}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4.}Closing}{12}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4.}Hand Gesture Recognition}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1.}American Sign Language(ASL)}{13}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.5.}Retinex(Single Scale Retinex)}{13}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1.}Multiscale Retinex(MSR)}{14}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2.}Multiscale Retinex Color Restoration(MSRCR)}{15}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6.}MobileNet}{16}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1.}Depthwise Separable Convolution}{16}{subsection.3.6.1}%
+\contentsline {section}{\numberline {3.7.}MobileNetV2}{17}{section.3.7}%
+\contentsline {section}{\numberline {3.8.}Convolutional Neural Network(CNN)}{19}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1.}Local Receptive Fields}{19}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2.}Shared Weight}{21}{subsection.3.8.2}%
+\contentsline {subsection}{\numberline {3.8.3.}Konvolusi}{21}{subsection.3.8.3}%
+\contentsline {subsection}{\numberline {3.8.4.}Fungsi Aktivasi}{22}{subsection.3.8.4}%
+\contentsline {subsection}{\numberline {3.8.5.}Evaluasi}{23}{subsection.3.8.5}%
+\contentsline {chapter}{\numberline {IV}METODOLOGI PENELITIAN}{24}{chapter.4}%
+\contentsline {section}{\numberline {4.1.}Studi Literatur}{24}{section.4.1}%
+\contentsline {section}{\numberline {4.2.}Alat dan Bahan}{24}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1.}Alat}{24}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2.}Bahan}{24}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3.}Prosedur Kerja}{24}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1.}Analisis dan Perancangan Sistem}{24}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4.}Pengumpulan Data}{26}{section.4.4}%
+\contentsline {section}{\numberline {4.5.}Proses Pelatihan}{27}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1.}Pelatihan Gesture Recognition}{28}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2.}Pelatihan Object Detection}{28}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6.}Pengujian dan Evaluasi}{29}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1.}Pengujian Deteksi Tangan}{29}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2.}Pengujian Pengenalan Gestur Tangan}{29}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3.}Pengujian Deteksi Tangan Menggunakan Retinex}{30}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4.}Pengujian Pengenalan Gestur Tangan Menggunakan Retinex}{31}{subsection.4.6.4}%
+\contentsline {subsection}{\numberline {4.6.5.}Pengujian Sistem Keseluruhan}{33}{subsection.4.6.5}%
+\contentsline {chapter}{\numberline {V}JADWAL PENELITIAN}{34}{chapter.5}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{35}{chapter*.36}%

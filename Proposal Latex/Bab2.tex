@@ -1,0 +1,65 @@
+\chapter{TINJAUAN PUSTAKA} 
+Penelitian untuk menghasilkan algoritma deteksi dan pengenalan gestur sudah banyak dilakukan, sehingga banyak metode yang memiliki tingkat keberhasilan tinggi. Namun pada pemrosesan citra tingkat keberhasilan tidak hanya didukung pada algoritma deteksi dan pengenalan saja, namun kualitas pada citra tersebut harus memiliki kualitas yang bagus pula sehingga dapat menghasilkan akurasi yang tinggi(Saputra, 2016).
+
+Salah satu hal yang mempengaruhi kualitas tersebut adalah kondisi cahaya yang mengarah pada objek, sehingga mempengaruhi hasil yang ditangkap oleh kamera. Peningkatan kontras sangat dibutuhkan untuk meningkatkan kualitas image dalam kondisi cahaya yang minim. Salah satu pendekatan yang populer dipakai adalah Retinex. (Tanaka et al., 2019) mengimplementasikan Retinex pada prepocessing untuk meningkatkan kontras citra. Percobaan yang dilakukan dengan membandingkan hasil segmentasi citra asli dan citra dengan proses preprocessing. Hasil yang didapat secara kualitatif terlihat setelah dilakukan segmentasi Gaussian Mixture Model. Hasil segmentasi objek dengan citra preprocessing mendapatkan foreground yang jelas daripada citra asli. Namun pada citra dengan Retinex peningkatan kontras berubah menghasilkan warna yang tidak natural.
+
+Peningkatkan pencahayaan pada citra dapat dilakukan dengan banyak metode. Selain Retinex, metode yang paling populer adalah histogram equalization. (Srinivasan, 2016) Melakukan perbandaingan antara algoritma Retinex dan Histogram Equalization. Pada penelitian tersebut Retinex yang di implementasikan adalah SSR(Single Scale Retinex) dan MSR(Multiscale Retinex). Kemudian Histogram Equalization yang diimplementasikan adalah BBHE, DSIHE dan RLBHE Kedua algoritma tersebut diuji menggunakan citra yang sama kemudian dilakukan perbandingan. 
+
+Pada citra keluaran Histogram Equalization(BBHE dan DSIE), citra mengalami meningkatkan kontras dengan keterbatasan beberapa fitur yang tidak terlihat, Keluaran RLBHE mereduksi kualitas dari piksel. Kemudian dengan citra keluaran Retinex, citra mengalami peningkatan kontras dengan fitur yang terlihat lebih jelas daripada citra Histogram Equalization.
+
+Algoritma Retinex telah mengalami pengembangan untuk meningkatkan kualitas citra pada kondisi lingkungan tertentu. Saputra ditahun 2016 melakukan perbandingan variasi Retinex untuk peningkatan deteksi wajah yang dilakukan pada kondisi ruangan berintensitas rendah. Algoritma AMSR (Adaptive Multiscale Retinex), MSRCR(Multiscale Retinex Color Restoration) di implementasikan pada 4 kondisi cahaya. Hasil peningkatan maksimal yang didapatkan pada MSRCR dapat meningkatkan 1.46 kali dan ASMR mampu meningkatkan 1.11 kali. Namun peningkatan tersebut terjadi pada parameter intensitas 273.25 lux(Saputra, 2016).
+
+Pengembangan MSR juga dilakukan oleh (Shen et al., 2017) dengan menambah layer preprocessing/post processing pada proses konvolusi citra pada CNN menjadi MSR-Net. Kemudian dibandingkan dengan MSRCR dan beberapa metode lainnya.  
+Hasil MSR-Net mengalami peningkatan kontras citra dengan warna natural dibandingkan MSRCR dan beberapa metode lainnya.
+
+Pengenalan sebuah gestur adalah yang menentukan hasil akhir dari sistem. CNN merupakan salah satu algoritma yang sering dijadikan solusi untuk proses klasifikasi dalam machine learning. Beberapa penelitian menggunakan CNN dengan beberapa variasi parameter. Penelitian (Yingxin et al., 2017) menggunakan CNN untuk mengenali sebuah gestur tangan dengan dataset CHGD(Cambridge hand gesture datasets). Pada penelitian ini dilakukan parameter illuminasi cahaya pada beberapa kondisi. Pengenalan gestur menghasilkan angka presentase yang tinggi sebesar 94.1\%. Proses dalam preprocessing menggunakan canny edge untuk menghilangkan efek illuminasi. Canny edge sangat membantu untuk kondisi illuminasi cahaya dibandingkan dengan algoritma CNN saja yang menggunakan citra asli di dapat hasil 70.0\%.
+
+Pada citra gelap informasi atau fitur fitur penting dari sebuah citra akan tersembunyi. Informasi dalam sebuah citra penting untuk merepresentasikan sebuah citra itu sendiri. Untuk mendapatkan informasi tersebut pada penelitian (Loh et al., 2019) berfokus pada perbaikan citra dengan tujuan memperoleh fitur untuk mendukung sistem visi otomatis dimana sebuah citra memiliki kontras dan pencahayaan yang rendah. Dalam penelitian ini memodelkan sebuah citra dengan cahaya rendah sebagai distribusi peningkatan fungsi lokal menggunakan Proses Gaussian yang dilatih pada saat runtime menggunakan data referensi yang dihasilkan dari sebuah CNN. CNN sendiri dilatih menggunakan dengan data yang sangat besar berdasarkan statistik pencahayaan. Sehingga proses learning dapat mempelajari hubungan antara fitur dengan piksel. Dengan demikian refrensi  yang dihasilkan melatih Gaussian proses untuk melakukan representasi fitur dengan benar. 
+
+Dasar-dasar penelitian sebelumnya yang menjadi tinjauan pustaka pada penelitian ini dirangkum dalam Tabel 2.1. 
+
+\begin{table}[htbp]
+	\caption{Tinjauan Pustaka}
+	\label{labelku}
+	\vspace{0.2cm}
+	
+	\begin{tabular}{|p{0.5cm}|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
+		\hline
+		No \centering & Nama \centering &\centering  Penelitian & \centering Metode & \ \ \ \ \ \ \ \ \  \ \ \ \ Hasil \\
+		
+		\hline
+		1 & (Loh et al., 2019) & Low-light image enhancement using Gaussian Process for features retrieval & Gaussian process and Convolutional Neural Network & Citra dengan kontras yang sangat rendah dapat di perbaiki menggunakan Gaussian prosses dan CNN untuk memperoleh detail informasi dari sebuah objek \\
+		
+		\hline
+		2 & (Tanaka et al., 2019) & Retinex Foreground Segmentation for Low Light Environments & Retinex dan Gaussian Mixture Model & Secara kualitatif citra yang dihasilkan setelah melalui preprocessing algoritma retinex dapat meningkatkan pencahayaan dari sebuah citra\\
+		
+		\hline
+		3 & (Yingxin et al., 2017) & A Robust Hand Gesture Recognition Method via Convolutional Neural Network & Edge detection dan Convolutional Neural Network & Pengenalan gestur tangan mendapatkan hasil 94.1\% digabungkan dengan proses deteksi tepi.\\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{table}[htpb]
+	\caption{Lanjutan Tabel}
+	\label{labelku}
+	\vspace{0.2cm}
+	\begin{tabular}{|p{0.5cm}|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
+		\hline
+		4 & (Shen et al., 2017) & MSR-Net:Low-light Image Enhancement using Deep Convolutional Network & MSR-net & Hasil dari implementasi algoritma MSR-Net di bandingkan dengan MSRCR dan beberapa algoritma lain mendapatkan kontras yang lebih tinggi dengan warna yang natural dibandingkan algoritma lain.\\
+		\hline
+		5 & (Saputra, 2016) & Perbandingan Varian Metode Multiscale Retinex Untuk Peningkatan Akurasi Deteksi Wajah Adaboost HAAR-like & Variasi metode multiscale retinex & Kondisi 439.75 lux MSRCR meningkatkan akurasi 1.31 kali dan
+		AMSR hanya 1,11 kali.
+		Kondisi 273.25 lux MSRCR 1.46 kali dan AMSR 1.31 kali.
+		Kondisi 150 lux 
+		MSRCR 1.38 kali dan AMSR 0.97 kali. 
+		Kondisi 9 lux kedua algoritma tidak dapat mendeteksi wajah sebuah citra.\\
+		\hline	
+		
+		6 & (Srinivasan, 2014) & Perbandingan antara Retinex dan Histogram Equalization & SSR, MSR, BBHE, DSIHE, RLBHE & Citra keluaran Retinex memiliki output kontras yang baik tanpa menghilangkan fitur pada citra. \\
+		\hline	
+		7 & (Arabi, 2019) & Mendeteksi peralatan konstruksi yang diaplikasikan pada embedded system dan PC & SSD MobileNet & Untuk semua device mAP $>$ 90\% \\
+		\hline
+		8& (Huang et al., 2019) &Hand Gesture Recognition with Skin Detection and Deep Learning Method Hand Gesture Recognition with Skin Detection and Deep Learning Method& Skin detection dan Convolutional Neural Network & Menghasilkan akurasi 98.41\% \\
+		\hline
+	\end{tabular}
+\end{table}

@@ -1,0 +1,226 @@
+\documentclass{tesisilkomugm}
+
+%-----------------------------------------------------------------
+%Disini awal masukan untuk data Skripsi (ISI SESUAI DENGAN DATA ANDA!)
+%-----------------------------------------------------------------
+%\titleeng{ENHANCING OF HAND GESTURE RECOGNITION FOR LOW-LIGHT ENVIRONMENT USING RETINEX}
+\titleind{PERBAIKAN PENGENALAN GESTUR TANGAN TERHADAP KONDISI LINGKUNGAN BERINTENSITAS CAHAYA RENDAH MENGGUNAKAN RETINEX}	
+
+\fullname{ANTHONIUS ADI NUGROHO}
+\NIM{19/448690/PPA/05773}
+\examdate{04 Mei 2020}
+\degree{Sarjana Sains}
+\yearsubmit{2020}
+\firstsupervisor{Dr. Raden Sumiharto, S.Si., M.Kom.}
+\firstexaminer{Penguji 1}
+\secondexaminer{penguji 2}
+\thirdexaminer{...}
+
+
+\begin{document}
+\cover\titlepage
+
+%\approvalpage
+%\declarepage
+%Setelah Anda selesai Ujian Akhir Tesis, scan halaman pengesahan yang telah ditandatangani dosen pembimbing dan penguji, scan juga halaman pernyataan yang telah Anda tandatangani. Selanjutnya simpan hasil scan tersebut dalam bentuk PDF dengan nama pengesahanskripsi.pdf dan pernyataan.pdf (file disimpan di folder yang sama dengan folder dimana file Skripsi.tex tersimpan)
+%Hilangkan karakter % sebelum perintah "\approvalpagescan" dan "\declarepage" di bawah ini, dan tambahkan karakter % sebelum perintah "\approvalpage" di atas.
+\approvalpage
+%\declarepage
+
+
+
+%-----------------------------------------------------------------
+%Halaman Persembahan (ISI SESUAI DENGAN DATA ANDA!)
+%-----------------------------------------------------------------
+%\acknowledment
+%-----------------------------------------------------------------
+%-----------------------------------------------------------------
+
+
+%-----------------------------------------------------------------
+%Halaman Motto (ISI SESUAI DENGAN DATA ANDA!)
+%-----------------------------------------------------------------
+%\motto
+
+%-----------------------------------------------------------------
+%-----------------------------------------------------------------
+
+
+%-----------------------------------------------------------------
+%Disini awal masukan untuk Prakata (ISI SESUAI DENGAN DATA ANDA!)
+%-----------------------------------------------------------------
+%\preface
+%-----------------------------------------------------------------
+%-----------------------------------------------------------------
+
+
+%-----------------------------------------------------------------
+%Daftar Isi (TIDAK PERLU DIUBAH)
+%-----------------------------------------------------------------
+\newpage\phantomsection\addcontentsline{toc}{chapter}{DAFTAR ISI}
+\makeatletter\renewcommand\l@chapter[2]{\ifnum \c@tocdepth >\z@\addpenalty\@secpenalty\addvspace{0em}\setlength\@tempdima{1.4em}\begingroup\parindent \z@ \rightskip \@pnumwidth\parfillskip -\@pnumwidth\leavevmode \bfseries\advance\leftskip\@tempdima\hskip -\leftskip#1\nobreak\ \leaders\hbox{$\m@th\mkern \@dotsep mu\hbox{.}\mkern \@dotsep mu$}\hfil\nobreak\hb@xt@\@pnumwidth{\hss #2}\par\endgroup\fi}\makeatother
+\begin{singlespacing}\tableofcontents\end{singlespacing}
+%-----------------------------------------------------------------
+%-----------------------------------------------------------------
+
+%-----------------------------------------------------------------
+%Daftar Tabel (JIKA DIPERLUKAN, HAPUS KARAKTER % SEBELUM \newpage dan \begin)
+%-----------------------------------------------------------------
+\newpage\phantomsection\addcontentsline{toc}{chapter}{DAFTAR TABEL}
+\begin{singlespacing}\listoftables\end{singlespacing} 
+%-----------------------------------------------------------------
+%-----------------------------------------------------------------
+
+%-----------------------------------------------------------------
+%Daftar Gambar (JIKA DIPERLUKAN, HAPUS KARAKTER % SEBELUM \newpage dan \begin)
+%-----------------------------------------------------------------
+\newpage\phantomsection\addcontentsline{toc}{chapter}{DAFTAR GAMBAR}
+\begin{singlespacing}\listoffigures\end{singlespacing}
+%-----------------------------------------------------------------
+%-----------------------------------------------------------------
+
+
+%-----------------------------------------------------------------
+%Daftar Lambang (ISI SESUAI DENGAN DATA ANDA!)
+%-----------------------------------------------------------------
+%-----------------------------------------------------------------
+%-----------------------------------------------------------------
+
+
+%-----------------------------------------------------------------
+%Disini awal masukan Intisari (ISI SESUAI DENGAN DATA ANDA!)
+%-----------------------------------------------------------------
+\begin{abstractind}
+Bahasa isyarat adalah salah satu bentuk komunikasi non-verbal antar manusia yang memiliki makna tersendiri. \emph{American Sign Language}(ASL) merupakan bentuk dari bahasa isyarat tangan yang digunakan oleh penyandang disabilitas untuk berkomunikasi satu sama lain. Penggunaan bahasa isyarat membantu penyetaraan hak atas informasi yang diberikan. Perkembangan ilmu yang sangat maju membantu seseorang dapat memahami suatu bahasa isyarat tanpa harus mempelajari hal tersebut. Salah satu bagian disiplin ilmu tersebut adalah pengenalan gestur, dimana di dalamnya terdapat bahasa isyarat yang dapat diterjemahkan dengan bantuan kamera.
+
+Kamera digunakan sebagai alat yang mengimitasi mata manusia dalam mengenali sebuah gestur. Proses pengenalan bahasa isyarat memiliki beberapa hal penting di dalamnya. Intensitas cahaya merupakan salah satu faktor penting dalam pengambilan sebuah citra yang ditangkap oleh kamera, dimana merupakan suatu tantangan tersendiri ketika informasi citra tidak dapat ditangkap dengan jelas yang menyebabkan penurunan performa. Permasalahan ini dapat diatasi dengan menggunakan teori Retinex yang diambil dari kata retina dan cortex. Retinex mampu meningkatkan tingkat kecerahan citra dengan cara layaknya mata manusia yang dapat melihat walaupun dalam ruangan minim cahaya. Citra yang telah dilakukan perbaikan kontras akan dilakukan deteksi tangan kemudian akan dikenali bahasa isyarat tersebut menggunakan teknik \emph{Convolution Neural Network}.
+
+\textbf{\emph{Kata kunci - Retinex, Hand Gesture Recognition, Object Detection} }
+\end{abstractind}
+%-----------------------------------------------------------------
+%-----------------------------------------------------------------
+
+%-----------------------------------------------------------------
+%Disini awal masukan untuk Abstract (ISI SESUAI DENGAN DATA ANDA!)
+%-----------------------------------------------------------------
+\begin{abstracteng}
+Gestures are one of meaningful non-verbal communication among humans. American Sign Language(ASL) is an example hand gesture useful for communicating disability persons to others. Sign language helps people to get right about information provided. Rapid scientific progress can help people to recognize sign language without having to learn. It called gesture recognition, which contains sign languages that can be translated by using camera.
+
+The camera is used to be human eyes to recognize gestures. Process of recognizing gesture has several important things. Light intensity is most important thing when image is taken by the camera,  which is a challenge when an image information is unclear makes performance degradation. The solution of low-light environment can be handled by using retinex theory, it's taken from the words retina and cortex. Retinex can increase contrast level image like a human eyes can see in a low-light environment. After light-enhanced, hand will be detected and gesture of an image will be recognized by using convolutional neural network.
+
+\textbf{\emph{Keywords - Retinex, Hand Gesture Recognition, Object Detection} }
+\end{abstracteng}
+%-----------------------------------------------------------------
+%-----------------------------------------------------------------
+
+%-----------------------------------------------------------------
+%Disini awal masukan untuk Bab (ISI BAB I DAPAT DIEDIT DI FILE Bab1.tex,
+%ISI BAB II DAPAT DIEDIT DI FILE Bab2.tex, dst...)
+%-----------------------------------------------------------------
+\input{Bab1.tex}
+\input{Bab2.tex}
+\input{Bab3.tex}
+\input{Bab4.tex}
+\input{Bab5.tex}
+%-----------------------------------------------------------------
+%Disini akhir masukan Bab
+%-----------------------------------------------------------------
+
+%-----------------------------------------------------------------
+%Disini awal masukan untuk Daftar Pustaka (ISI SESUAI DENGAN DATA ANDA!)
+%-----------------------------------------------------------------
+\begin{thebibliography}{99}
+\addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
+
+\bibitem[Aribowo(2009)]{ari}
+Aribowo, E., Yustina, E., Studi, P., Informatika, T., Teknologi, F., Universitas, I. 
+\& Dahlan, A., 2009, \emph{Implementasi Metode Retinex Untuk Pencerahan Citra}, 
+Jurnal Informatika, 3, 2, 323–330. 
+
+\bibitem[Loh(2019)]{loh}
+Loh, Y.P., Liang, X. \& Chan, C.S., 2019,\emph{Low-light image enhancement using Gaussian Process for features retrieval}, Signal Processing: Image 
+Communication, 74, 175–190. https://doi.org/10.1016/j.image.2019.02.001,. 
+
+\bibitem[Saputra(2016)]{sap}
+Saputra, L.K.P., 2016, \emph{Perbandingan Varian Metode Multiscale Retinex Untuk Peningkatan Akurasi Deteksi Wajah Adaboost HAAR-like}, Jurnal Teknik Informatika dan Sistem Informasi, 2, 1, 89–98.
+
+\bibitem[Shen(2017)]{shen}
+Shen, L., Yue, Z., Feng, F., Chen, Q., Liu, S. \& Ma, J., 2017, \emph{MSR-net:Low-light 
+Image Enhancement Using Deep Convolutional Network}, , , January. 
+http://arxiv.org/abs/1711.02488,.
+
+\bibitem[Tanaka(2017)]{tan}
+Tanaka, Y., Yamashita, Y., Nishikawa, K., Yamaguchi, T. \& Nishitani, T., 2019,\emph{Retinex Foreground Segmentation for Low Light Environments}, 2018 Asia-Pacific Signal and Information Processing Association Annual Summit and
+Conference, APSIPA ASC 2018 - Proceedings, , November, 285–290.
+
+\bibitem[Yingx(2017)]{yin}
+Yingxin, X., Jinghua, L., Lichun, W. \& Dehui, K., 2017,\emph{A Robust Hand Gesture Recognition Method via Convolutional Neural Network}, Proceedings - 2016 
+International Conference on Digital Home, ICDH 2016, 64–67. 
+
+\bibitem[Sarifudin(2015)]{sar}
+Madenda,Sarifudin., 2015, \emph{Pengolahan \& Video Digital}, Erlangga, 
+Jakarta[BUKU].
+
+\bibitem[Neilsen(2015)]{neil}
+Nielsen, M., 2015, \emph{Neural Networks and Deep Learning, Determination Press}., 
+[Daring]. tersedia di \emph{http://neuralnetworksanddeeplearning.com}. 
+
+\bibitem[Munir(2004)]{mun}
+Rinaldi, Munir., 2004, \emph{Pengolahan Citra Digital}, Bandung, Informatika[BUKU]. 
+
+\bibitem[hidayatullah(2017)]{hid}
+Hidayatullah, Priyanto,. 2017,\emph{Pengolahan Citra Digital Teori dan Aplikasi Nyata}, 
+Bandung, Informatika[BUKU].
+
+\bibitem[barczak(2011)]{bar}
+Barczak, A.L.C., Reyes, N.H., Abastillas, M., Piccio, A. \& Susnjak, T., 2011, \emph{A New 2D Static Hand Gesture Colour Image Dataset for ASL Gestures},Res. Lett. Inf. Math. Sci., 15, 12-20.\emph{http://iims.massey.ac.nz/research/letters/}.
+
+\bibitem[kolkur(2017)]{kol}
+Kolkur, S., Kalbande, D., Shimpi, P., Bapat, C. \& Jatakia, J., 2017, \emph{Human Skin Detection Using RGB , HSV and YCbCr Color Models}, , 137, 324-332.
+
+\bibitem[arabi(2019)]{arb}
+Arabi, S., Haghighat, A. \& Sharma, A., 2019, \emph{A deep learning based solution for construction equipment detection: from development to deployment} , , , April.
+
+\bibitem[srinivan(2016)]{sri}
+Srinivasan, R., 2016, \emph{Implementing Histogram Equalization and Retinex}, , , July.
+
+\bibitem[huang(2019)]{hua}
+Huang, H., Chong, Y., Nie, C. \& Pan, S., 2019, \emph{Hand Gesture Recognition with Skin Detection and Deep Learning Method Hand Gesture Recognition with Skin Detection and Deep Learning Method}, J. Phys.: Conf. Ser. 1213 022001.
+
+\bibitem[Posada(2007)]{pos}
+Posada-Gómez, Rubén \& Sanchez Medel, Luis \& Alor-Hernández, Giner \& Martinez Sibaja, Albino \& Aguilar-Laserre, A. \& Leija-Salas, L.. 2007. \emph{A Hands Gesture System Of Control For An Intelligent Wheelchair}. 68 - 71. 10.1109/ICEEE.2007.4344975. 
+
+\bibitem[kemenkes(2015)]{kem}
+Kemenkes, 2018, \emph{Indonesia Inklusi  dan Ramah Disabilitas}[Daring], tersedia di \emph{https://www.kemkes.go.id/resources/download/pusdatin/infodatin/infodatin-disabilitas.pdf}.
+
+\bibitem[arfianto(2016)]{arf}
+Afrianto, T. \& Amalia, F., 2016, \emph{Pengaruh Komponen Krominan Pada Ruang Warna}, Prosiding Seminar Nasional Teknologi Terapan (SNTT), , August 2017, 282-285.
+
+\bibitem[Howard(2017)]{how}
+Howard, A.G., Zhu, M., Chen, B., Kalenichenko, D., Wang, W., Weyand, T., Andreetto, M. \& Adam, H., 2017, \emph{MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications}, \emph{http://arxiv.org/abs/1704.04861}.
+
+\bibitem[Sandler(2018)]{sand}
+Sandler, M., Howard, A., Zhu, M., Zhmoginov, A. \& Chen, L.C., 2018, \emph{MobileNetV2: Inverted Residuals and Linear Bottlenecks}, Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition, 45104520.
+
+\bibitem[Google(2018)]{goog}
+Google AI Blog, 2018, \emph{MobileNetV2: The Next Generation of On-Device Computer Vision Networks}[Daring], tersedia di \emph{ai.googleblog.com/2018/04/mobilenetv2-next-generation-of-on.html?m=1}.
+
+\bibitem[Leonard(2017)]{Leo}
+Leonard, L.C., 2017, \emph{Web-Based Behavioral Modeling for Continuous User 
+	Authentication (CUA)}, 1 edisi, Elsevier Inc., [Daring]. tersedia di 
+DOI:10.1016/bs.adcom.2016.12.001.
+\end{thebibliography}
+%-----------------------------------------------------------------
+%-----------------------------------------------------------------
+
+
+%-----------------------------------------------------------------
+%Disini awal masukan untuk Lampiran (JIKA DIPERLUKAN)
+%-----------------------------------------------------------------
+\appendix
+%\chapter{SKRIP}
+
+
+%-----------------------------------------------------------------
+%-----------------------------------------------------------------
+\end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.2.26)  22 JUL 2020 00:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.2.26)  1 AUG 2020 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -849,7 +849,7 @@ LaTeX Info: Redefining \nameref on input line 20.
 \@outlinefile=\write4
 \openout4 = `Proposal.out'.
 
-<logougm.png, id=236, 110.5731pt x 112.2594pt>
+<logougm.png, id=240, 110.5731pt x 112.2594pt>
 File: logougm.png Graphic file (type png)
 <use logougm.png>
 Package pdftex.def Info: logougm.png  used on input line 21.
@@ -857,54 +857,75 @@ Package pdftex.def Info: logougm.png  used on input line 21.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logougm.png>]
-File: logougm.png Graphic file (type png)
-<use logougm.png>
-Package pdftex.def Info: logougm.png  used on input line 21.
-(pdftex.def)             Requested size: 156.49014pt x 158.89041pt.
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.27 \approvalpage
-                   [1]
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 27
-.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pengesahanskripsi.pdf): PDF inclusion
+: found PDF version <1.6>, but at most version <1.5> allowed
+<pengesahanskripsi.pdf, id=249, 597.55142pt x 845.07523pt>
+File: pengesahanskripsi.pdf Graphic file (type pdf)
+<use pengesahanskripsi.pdf>
+Package pdftex.def Info: pengesahanskripsi.pdf  used on input line 27.
+(pdftex.def)             Requested size: 597.54996pt x 845.07317pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pengesahanskripsi.pdf): PDF inclusion
+: found PDF version <1.6>, but at most version <1.5> allowed
+File: pengesahanskripsi.pdf Graphic file (type pdf)
+<use pengesahanskripsi.pdf>
+Package pdftex.def Info: pengesahanskripsi.pdf  used on input line 27.
+(pdftex.def)             Requested size: 597.54996pt x 845.07317pt.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pengesahanskripsi.pdf): PDF inclusion
+: found PDF version <1.6>, but at most version <1.5> allowed
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./pengesahanskripsi.pdf): PDF inclusion
+: found PDF version <1.6>, but at most version <1.5> allowed
+<pengesahanskripsi.pdf, id=252, page=1, 597.55142pt x 845.07523pt>
+File: pengesahanskripsi.pdf Graphic file (type pdf)
+<use pengesahanskripsi.pdf, page 1>
+Package pdftex.def Info: pengesahanskripsi.pdf , page1 used on input line 27.
+(pdftex.def)             Requested size: 597.54996pt x 845.07317pt.
+File: pengesahanskripsi.pdf Graphic file (type pdf)
+<use pengesahanskripsi.pdf, page 1>
+Package pdftex.def Info: pengesahanskripsi.pdf , page1 used on input line 27.
+(pdftex.def)             Requested size: 597.59554pt x 845.13763pt.
+File: pengesahanskripsi.pdf Graphic file (type pdf)
+<use pengesahanskripsi.pdf, page 1>
+Package pdftex.def Info: pengesahanskripsi.pdf , page1 used on input line 27.
+(pdftex.def)             Requested size: 597.59554pt x 845.13763pt.
+File: pengesahanskripsi.pdf Graphic file (type pdf)
+<use pengesahanskripsi.pdf, page 1>
+Package pdftex.def Info: pengesahanskripsi.pdf , page1 used on input line 27.
+(pdftex.def)             Requested size: 597.59554pt x 845.13763pt.
+File: pengesahanskripsi.pdf Graphic file (type pdf)
+<use pengesahanskripsi.pdf, page 1>
+Package pdftex.def Info: pengesahanskripsi.pdf , page1 used on input line 27.
+(pdftex.def)             Requested size: 597.59554pt x 845.13763pt.
+[2 <./pengesahanskripsi.pdf>] (./Proposal.toc
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 2.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (38.22636pt too wide) in paragraph at lines 27--27
- [][] 
- []
-
-
-Overfull \hbox (38.22636pt too wide) in paragraph at lines 27--27
- [][] 
- []
-
-
-Overfull \hbox (38.22636pt too wide) in paragraph at lines 27--27
- [][] 
- []
-
-[2] (./Proposal.toc [3
+) [3
 
 ])
 \tf@toc=\write5
 \openout5 = `Proposal.toc'.
 
- [4] (./Proposal.lot)
+ [4]
+(./Proposal.lot)
 \tf@lot=\write6
 \openout6 = `Proposal.lot'.
 
@@ -923,9 +944,6 @@ Overfull \hbox (4.63521pt too wide) in paragraph at lines 96--97
  []
 
 [7
-
-
-] [8
 
 
 ] (./Bab1.tex
@@ -957,33 +975,33 @@ LaTeX Font Warning: Font shape `U/lasy/m/n' in size <8.43146> not available
 (Font)              size <8> substituted on input line 26.
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 31--31
-[]\OT1/ptm/m/n/12.045 Low-light ima-ge
+Underfull \hbox (badness 4217) in paragraph at lines 31--31
+[]\OT1/ptm/m/it/12.045 Low-light ima-ge
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--31
-\OT1/ptm/m/n/12.045 enhan-ce-ment
+\OT1/ptm/m/it/12.045 enhan-ce-ment
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 31--31
-\OT1/ptm/m/n/12.045 using Ga-us-si-
+\OT1/ptm/m/it/12.045 using Ga-us-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-\OT1/ptm/m/n/12.045 an Pro-cess for
+Underfull \hbox (badness 8094) in paragraph at lines 31--31
+\OT1/ptm/m/it/12.045 an Pro-cess for
  []
 
 
-Underfull \hbox (badness 6995) in paragraph at lines 31--31
-\OT1/ptm/m/n/12.045 and Con-vo-lu-tio-
+Underfull \hbox (badness 6348) in paragraph at lines 31--31
+\OT1/ptm/m/it/12.045 and Con-vo-lu-tio-
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 31--31
-\OT1/ptm/m/n/12.045 nal Ne-u-ral Ne-
+Underfull \hbox (badness 4940) in paragraph at lines 31--31
+\OT1/ptm/m/it/12.045 nal Ne-u-ral Ne-
  []
 
 
@@ -998,27 +1016,27 @@ Underfull \hbox (badness 5091) in paragraph at lines 34--34
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
-[]\OT1/ptm/m/n/12.045 Retinex Fo-re-
+[]\OT1/ptm/m/it/12.045 Retinex Fo-re-
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 34--34
-\OT1/ptm/m/n/12.045 gro-und Se-gmen-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--34
-\OT1/ptm/m/n/12.045 ta-tion for Low
+Underfull \hbox (badness 6063) in paragraph at lines 34--34
+\OT1/ptm/m/it/12.045 gro-und Se-gmen-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
-\OT1/ptm/m/n/12.045 Li-ght En-vi-ro-
+\OT1/ptm/m/it/12.045 ta-tion for Low
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 34--34
-\OT1/ptm/m/n/12.045 us-si-an Mi-xtu-re
+\OT1/ptm/m/it/12.045 Li-ght En-vi-ro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
+\OT1/ptm/m/it/12.045 us-si-an Mi-xtu-re
  []
 
 
@@ -1027,13 +1045,13 @@ Underfull \hbox (badness 2662) in paragraph at lines 34--35
  []
 
 
-Underfull \hbox (badness 7925) in paragraph at lines 34--35
-\OT1/ptm/m/n/12.045 me-la-lui prep-ro-ces-sing
+Underfull \hbox (badness 6876) in paragraph at lines 34--35
+\OT1/ptm/m/n/12.045 me-la-lui \OT1/ptm/m/it/12.045 prep-ro-ces-sing
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 34--35
-\OT1/ptm/m/n/12.045 al-go-ri-tma re-ti-nex da-
+Underfull \hbox (badness 1515) in paragraph at lines 34--35
+\OT1/ptm/m/n/12.045 al-go-ri-tme Re-ti-nex da-
  []
 
 
@@ -1042,33 +1060,33 @@ Underfull \hbox (badness 2846) in paragraph at lines 34--35
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 37--37
-[]\OT1/ptm/m/n/12.045 A Ro-bust Hand
+Underfull \hbox (badness 3657) in paragraph at lines 37--37
+[]\OT1/ptm/m/it/12.045 A Ro-bust Hand
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 37--37
-\OT1/ptm/m/n/12.045 tion Me-thod via
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-\OT1/ptm/m/n/12.045 Con-vo-lu-tio-nal
+Underfull \hbox (badness 1584) in paragraph at lines 37--37
+\OT1/ptm/m/it/12.045 tion Me-thod via
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--37
-[]\OT1/ptm/m/n/12.045 Edge de-te-ction
+\OT1/ptm/m/it/12.045 Con-vo-lu-tio-nal
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--37
-\OT1/ptm/m/n/12.045 dan Con-vo-lu-
+[]\OT1/ptm/m/it/12.045 Edge de-te-ction
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 37--37
-\OT1/ptm/m/n/12.045 tio-nal Ne-u-ral
+\OT1/ptm/m/n/12.045 dan \OT1/ptm/m/it/12.045 Con-vo-lu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--37
+\OT1/ptm/m/it/12.045 tio-nal Ne-u-ral
  []
 
 
@@ -1088,32 +1106,32 @@ Overfull \hbox (17.32083pt too wide) in paragraph at lines 26--40
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 48--48
-[]\OT1/ptm/m/n/12.045 MSR-Net:Low-
+[]\OT1/ptm/m/it/12.045 MSR-Net:Low-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 48--48
-\OT1/ptm/m/n/12.045 light Ima-ge
+\OT1/ptm/m/it/12.045 light Ima-ge
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 48--48
-\OT1/ptm/m/n/12.045 Enhan-ce-ment
+\OT1/ptm/m/it/12.045 Enhan-ce-ment
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 48--48
-\OT1/ptm/m/n/12.045 using De-ep
+\OT1/ptm/m/it/12.045 using De-ep
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 48--48
-\OT1/ptm/m/n/12.045 Con-vo-lu-tio-nal
+\OT1/ptm/m/it/12.045 Con-vo-lu-tio-nal
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]\OT1/ptm/m/n/12.045 (Saputra,
+[]\OT1/ptm/m/n/12.045 (Saputra.,
  []
 
 
@@ -1123,17 +1141,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--50
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12.045 Va-ri-an Me-to-
+\OT1/ptm/m/n/12.045 Va-ri-an \OT1/ptm/m/it/12.045 Me-to-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12.045 de Mul-ti-sca-le
+\OT1/ptm/m/it/12.045 de Mul-ti-sca-le
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 50--50
-\OT1/ptm/m/n/12.045 Re-ti-nex Un-tuk
+\OT1/ptm/m/it/12.045 Re-ti-nex \OT1/ptm/m/n/12.045 Un-tuk
  []
 
 
@@ -1147,13 +1165,18 @@ Underfull \hbox (badness 6910) in paragraph at lines 50--50
  []
 
 
-Underfull \hbox (badness 3138) in paragraph at lines 50--50
-\OT1/ptm/m/n/12.045 Wa-jah Ada-bo-ost
+Underfull \hbox (badness 4366) in paragraph at lines 50--50
+\OT1/ptm/m/n/12.045 Wa-jah \OT1/ptm/m/it/12.045 Ada-bo-ost
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 50--50
-[]\OT1/ptm/m/n/12.045 Variasi me-to-de
+[]\OT1/ptm/m/n/12.045 Variasi me-to-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+\OT1/ptm/m/n/12.045 de \OT1/ptm/m/it/12.045 Mul-ti-sca-le
  []
 
 
@@ -1188,7 +1211,13 @@ Underfull \hbox (badness 4193) in paragraph at lines 50--56
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 50--56
-\OT1/ptm/m/n/12.045 lux ke-dua al-go-ri-tma
+\OT1/ptm/m/n/12.045 lux ke-dua al-go-ri-tme
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 58--58
+\OT1/ptm/m/n/12.045 ta-ra \OT1/ptm/m/it/12.045 Re-ti-nex \OT1/ptm/m/n/12.045 da
+n
  []
 
 
@@ -1202,8 +1231,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 58--59
-\OT1/ptm/m/n/12.045 me-mi-li-ki ou-tput kon-
+Underfull \hbox (badness 3068) in paragraph at lines 58--59
+\OT1/ptm/m/n/12.045 me-mi-li-ki \OT1/ptm/m/it/12.045 ou-tput \OT1/ptm/m/n/12.04
+5 kon-
  []
 
 
@@ -1243,57 +1273,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--62
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--62
-[]\OT1/ptm/m/n/12.045 Hand Ges-tu-re
+[]\OT1/ptm/m/it/12.045 Hand Ges-tu-re
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/12.045 Skin De-te-ction
+\OT1/ptm/m/it/12.045 Skin De-te-ction
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/12.045 and De-ep Le-
+\OT1/ptm/m/it/12.045 and De-ep Le-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/12.045 ar-ning Me-thod
+\OT1/ptm/m/it/12.045 ar-ning Me-thod
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/12.045 Hand Ges-tu-re
+\OT1/ptm/m/it/12.045 Hand Ges-tu-re
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/12.045 Re-cog-ni-tion
+\OT1/ptm/m/it/12.045 Re-cog-ni-tion
  []
 
 
-Underfull \hbox (badness 1584) in paragraph at lines 62--62
-\OT1/ptm/m/n/12.045 wi-th Skin De-te-
+Underfull \hbox (badness 2884) in paragraph at lines 62--62
+\OT1/ptm/m/it/12.045 wi-th Skin De-te-
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 62--62
-\OT1/ptm/m/n/12.045 ction and De-ep
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-[]\OT1/ptm/m/n/12.045 Skin de-te-ction
+Underfull \hbox (badness 3439) in paragraph at lines 62--62
+\OT1/ptm/m/it/12.045 ction and De-ep
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/12.045 dan Con-vo-lu-
+[]\OT1/ptm/m/it/12.045 Skin de-te-ction
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/12.045 tio-nal Ne-u-ral
+\OT1/ptm/m/n/12.045 dan \OT1/ptm/m/it/12.045 Con-vo-lu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+\OT1/ptm/m/it/12.045 tio-nal Ne-u-ral
  []
 
 
@@ -1308,7 +1338,7 @@ Overfull \hbox (17.32083pt too wide) in paragraph at lines 46--65
 
 ) (./Bab3.tex [7] [8]
 BAB III.
-<screenshot001.png, id=430, 271.0125pt x 249.80283pt>
+<screenshot001.png, id=457, 271.0125pt x 249.80283pt>
 File: screenshot001.png Graphic file (type png)
 <use screenshot001.png>
 Package pdftex.def Info: screenshot001.png  used on input line 10.
@@ -1316,31 +1346,31 @@ Package pdftex.def Info: screenshot001.png  used on input line 10.
 [9
 
  <./screenshot001.png (PNG copy)>]
-<29.jpg, id=436, 64.24pt x 64.24pt>
+<29.jpg, id=463, 64.24pt x 64.24pt>
 File: 29.jpg Graphic file (type jpg)
 <use 29.jpg>
-Package pdftex.def Info: 29.jpg  used on input line 33.
-(pdftex.def)             Requested size: 119.50278pt x 119.51259pt.
-<hsv.png, id=437, 745.78625pt x 546.04pt>
+Package pdftex.def Info: 29.jpg  used on input line 29.
+(pdftex.def)             Requested size: 139.42093pt x 139.43266pt.
+<hsv.png, id=464, 745.78625pt x 546.04pt>
 File: hsv.png Graphic file (type png)
 <use hsv.png>
-Package pdftex.def Info: hsv.png  used on input line 46.
-(pdftex.def)             Requested size: 199.16928pt x 145.8247pt.
+Package pdftex.def Info: hsv.png  used on input line 42.
+(pdftex.def)             Requested size: 179.25113pt x 131.23558pt.
  [10 <./29.jpg>] [11 <./hsv.png>] [12]
-<asl.jpg, id=468, 1488.56125pt x 726.715pt>
+<asl.jpg, id=495, 1488.56125pt x 726.715pt>
 File: asl.jpg Graphic file (type jpg)
 <use asl.jpg>
-Package pdftex.def Info: asl.jpg  used on input line 108.
+Package pdftex.def Info: asl.jpg  used on input line 104.
 (pdftex.def)             Requested size: 278.83578pt x 136.12566pt.
 
 [13 <./asl.jpg>] [14] [15] [16]
-<new.jpg, id=500, 675.52374pt x 858.20625pt>
+<new.jpg, id=528, 675.52374pt x 858.20625pt>
 File: new.jpg Graphic file (type jpg)
 <use new.jpg>
 Package pdftex.def Info: new.jpg  used on input line 203.
 (pdftex.def)             Requested size: 199.16928pt x 253.0246pt.
  [17 <./new.jpg>]
-<arsitektur.png, id=508, 509.905pt x 434.62375pt>
+<arsitektur.png, id=535, 509.905pt x 434.62375pt>
 File: arsitektur.png Graphic file (type png)
 <use arsitektur.png>
 Package pdftex.def Info: arsitektur.png  used on input line 231.
@@ -1352,12 +1382,12 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<neuraon.png, id=514, 236.885pt x 258.9675pt>
+<neuraon.png, id=542, 236.885pt x 258.9675pt>
 File: neuraon.png Graphic file (type png)
 <use neuraon.png>
 Package pdftex.def Info: neuraon.png  used on input line 249.
 (pdftex.def)             Requested size: 99.58464pt x 108.86833pt.
-<hidenneuron.png, id=515, 320.19624pt x 220.825pt>
+<hidenneuron.png, id=543, 320.19624pt x 220.825pt>
 File: hidenneuron.png Graphic file (type png)
 <use hidenneuron.png>
 Package pdftex.def Info: hidenneuron.png  used on input line 263.
@@ -1367,12 +1397,12 @@ Package pdftex.def Info: hidenneuron.png  used on input line 263.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [19 <./neuraon.png>]
-<neuron2.png, id=521, 503.8825pt x 258.9675pt>
+<neuron2.png, id=549, 503.8825pt x 258.9675pt>
 File: neuron2.png Graphic file (type png)
 <use neuron2.png>
 Package pdftex.def Info: neuron2.png  used on input line 284.
 (pdftex.def)             Requested size: 258.91763pt x 133.06744pt.
-<neuron3.png, id=522, 503.8825pt x 258.9675pt>
+<neuron3.png, id=550, 503.8825pt x 258.9675pt>
 File: neuron3.png Graphic file (type png)
 <use neuron3.png>
 Package pdftex.def Info: neuron3.png  used on input line 295.
@@ -1382,87 +1412,97 @@ Package pdftex.def Info: neuron3.png  used on input line 295.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [20 <./hidenneuron.png> <./neuron2.png>] [21 <./neuron3.png>] [22]
-<confusion.png, id=542, 505.89pt x 324.21124pt>
+<confusion.png, id=569, 505.89pt x 324.21124pt>
 File: confusion.png Graphic file (type png)
 <use confusion.png>
-Package pdftex.def Info: confusion.png  used on input line 368.
+Package pdftex.def Info: confusion.png  used on input line 369.
 (pdftex.def)             Requested size: 278.83578pt x 178.7026pt.
-) (./Bab4.tex [23 <./confusion.png>]
+<iou.png, id=570, 769.87625pt x 525.965pt>
+File: iou.png Graphic file (type png)
+<use iou.png>
+Package pdftex.def Info: iou.png  used on input line 385.
+(pdftex.def)             Requested size: 278.83578pt x 190.50293pt.
+ [23 <./confusion.png>] [24 <./iou.png>]
+<mtrik.png, id=587, 1140.26pt x 452.69125pt>
+File: mtrik.png Graphic file (type png)
+<use mtrik.png>
+Package pdftex.def Info: mtrik.png  used on input line 412.
+(pdftex.def)             Requested size: 398.33858pt x 158.14038pt.
+) (./Bab4.tex [25 <./mtrik.png>]
 BAB IV.
-<Rencana.png, id=551, 121.45375pt x 342.27875pt>
+<Rencana.png, id=595, 121.45375pt x 342.27875pt>
 File: Rencana.png Graphic file (type png)
 <use Rencana.png>
 Package pdftex.def Info: Rencana.png  used on input line 23.
 (pdftex.def)             Requested size: 79.66649pt x 224.51018pt.
-[24
+[26
 
 ]
-<rancangan.png, id=562, 864.22874pt x 485.815pt>
+<rancangan.png, id=606, 864.22874pt x 485.815pt>
 File: rancangan.png Graphic file (type png)
 <use rancangan.png>
 Package pdftex.def Info: rancangan.png  used on input line 32.
 (pdftex.def)             Requested size: 358.50227pt x 201.52792pt.
- [25 <./Rencana.png> <./rancangan.png>]
-<datasetasl.png, id=570, 981.6675pt x 556.0775pt>
+ [27 <./Rencana.png> <./rancangan.png>]
+<datasetasl.png, id=613, 981.6675pt x 556.0775pt>
 File: datasetasl.png Graphic file (type png)
 <use datasetasl.png>
 Package pdftex.def Info: datasetasl.png  used on input line 48.
 (pdftex.def)             Requested size: 318.67207pt x 180.51091pt.
-<setup.png, id=571, 734.745pt x 636.3775pt>
+<setup.png, id=614, 734.745pt x 636.3775pt>
 File: setup.png Graphic file (type png)
 <use setup.png>
 Package pdftex.def Info: setup.png  used on input line 59.
 (pdftex.def)             Requested size: 318.67207pt x 276.01602pt.
- [26 <./datasetasl.png>] [27 <./setup.png>]
-<transfer.png, id=582, 423.5825pt x 201.75375pt>
+ [28 <./datasetasl.png>] [29 <./setup.png>]
+<transfer.png, id=625, 423.5825pt x 201.75375pt>
 File: transfer.png Graphic file (type png)
 <use transfer.png>
 Package pdftex.def Info: transfer.png  used on input line 78.
 (pdftex.def)             Requested size: 318.67207pt x 151.78902pt.
-<v2.png, id=583, 663.47874pt x 501.875pt>
+
+Overfull \hbox (2.05133pt too wide) in paragraph at lines 73--81
+[]\OT1/ptm/m/n/12.045 Masukan ci-tra me-mi-li-ki di-men-si 224x224 pik-sel yang
+ ter-di-ri 3 chan-nel RGB,
+ []
+
+<v2.png, id=626, 663.47874pt x 501.875pt>
 File: v2.png Graphic file (type png)
 <use v2.png>
 Package pdftex.def Info: v2.png  used on input line 90.
 (pdftex.def)             Requested size: 278.83578pt x 210.91624pt.
- [28 <./transfer.png>] [29 <./v2.png>]
-<skema objek deteksi.png, id=595, 124.465pt x 383.4325pt>
+[30 <./transfer.png>] [31 <./v2.png>]
+<skema objek deteksi.png, id=638, 124.465pt x 383.4325pt>
 File: skema objek deteksi.png Graphic file (type png)
 <use skema objek deteksi.png>
-Package pdftex.def Info: skema objek deteksi.png  used on input line 109.
-(pdftex.def)             Requested size: 79.66649pt x 245.43106pt.
-
-Overfull \hbox (56.8487pt too wide) in paragraph at lines 118--129
+Package pdftex.def Info: skema objek deteksi.png  used on input line 111.
+(pdftex.def)             Requested size: 75.68529pt x 233.16214pt.
+ [32]
+Overfull \hbox (56.8487pt too wide) in paragraph at lines 120--131
  [][] 
  []
 
-[30 <./skema objek deteksi.png>]
-<proses pengujian sistem.png, id=601, 121.45375pt x 322.20375pt>
+<proses pengujian sistem.png, id=643, 121.45375pt x 322.20375pt>
 File: proses pengujian sistem.png Graphic file (type png)
 <use proses pengujian sistem.png>
-Package pdftex.def Info: proses pengujian sistem.png  used on input line 136.
-(pdftex.def)             Requested size: 79.66649pt x 211.34244pt.
-
-Overfull \hbox (37.18906pt too wide) in paragraph at lines 146--191
+Package pdftex.def Info: proses pengujian sistem.png  used on input line 138.
+(pdftex.def)             Requested size: 75.68529pt x 200.78195pt.
+[33 <./skema objek deteksi.png>]
+Overfull \hbox (37.18906pt too wide) in paragraph at lines 148--193
  [][] 
  []
 
 
-Overfull \hbox (37.18906pt too wide) in paragraph at lines 146--191
+Overfull \hbox (37.18906pt too wide) in paragraph at lines 148--193
  [] 
  []
 
 
-Overfull \hbox (37.18906pt too wide) in paragraph at lines 146--191
+Overfull \hbox (37.18906pt too wide) in paragraph at lines 148--193
  [] 
  []
 
-[31 <./proses pengujian sistem.png>]) (./Bab5.tex
-Overfull \hbox (3.2689pt too wide) in paragraph at lines 196--1
-[]\OT1/ptm/m/n/12.045 Pengujian ta-hap ter-a-khir ada-lah pe-ngu-ji-an ke-se-lu
--ruh-an sis-tem, de-ngan meng-
- []
-
-[32] [33]
+[34 <./proses pengujian sistem.png>]) (./Bab5.tex [35] [36]
 BAB V.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--10
@@ -1490,11 +1530,21 @@ Underfull \hbox (badness 3735) in paragraph at lines 14--14
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+[]\OT1/ptm/m/n/12.045 Agustus { Ok-to-ber
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+[]\OT1/ptm/m/n/12.045 Maret { De-sem-ber
+ []
+
+
 Overfull \hbox (5.32085pt too wide) in paragraph at lines 6--24
  [][] 
  []
 
-) [34
+) [37
 
 ]
 Underfull \hbox (badness 4454) in paragraph at lines 161--163
@@ -1502,7 +1552,7 @@ Underfull \hbox (badness 4454) in paragraph at lines 161--163
 -an & Vi-deo Di-gi-tal\OT1/ptm/m/n/12.045 , Er-lang-ga, Ja-kar-
  []
 
-[35
+[38
 
 ]
 Underfull \hbox (badness 1253) in paragraph at lines 194--195
@@ -1516,7 +1566,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--195
 download/pusdatin/infodatin/infodatin-
  []
 
-[36]
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+[]\OT1/ptm/m/n/12.045 Google AI Blog., 2018, \OT1/ptm/m/it/12.045 Mo-bi-le-Ne-t
+V2: The Ne-xt Ge-ne-ra-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+\OT1/ptm/m/it/12.045 of On-Device Com-pu-ter Vi-sion Ne-tworks\OT1/ptm/m/n/12.0
+45 [Daring], ter-se-dia di
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 209--212
 []\OT1/ptm/m/n/12.045 Leonard, L.C., 2017, \OT1/ptm/m/it/12.045 Web-Based Be-ha
 -vi-o-ral Mo-de-ling for Con-ti-nu-o-us
@@ -1528,14 +1590,14 @@ Underfull \hbox (badness 2418) in paragraph at lines 209--212
 i, El-se-vi-er Inc., [Da-ring]. ter-se-dia di
  []
 
-[37]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
+[40]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
  (./Proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
 Package rerunfilecheck Info: File `Proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 4D72EE9285209F6B71C077F603EE92AC;3745.
+(rerunfilecheck)             Checksum: 7C71BF92AC64A707467F646440C40074;3855.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1544,16 +1606,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 235.
  ) 
 Here is how much of TeX's memory you used:
- 22525 strings out of 481239
- 407674 string characters out of 5920377
- 697763 words of memory out of 5000000
- 37097 multiletter control sequences out of 15000+600000
- 556808 words of font info for 78 fonts, out of 8000000 for 9000
+ 22571 strings out of 481239
+ 408348 string characters out of 5920377
+ 684833 words of memory out of 5000000
+ 37128 multiletter control sequences out of 15000+600000
+ 561080 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,16n,64p,964b,525s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,18n,64p,968b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
@@ -1567,10 +1629,10 @@ cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 ive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on Proposal.pdf (46 pages, 1721299 bytes).
+Output written on Proposal.pdf (47 pages, 2318551 bytes).
 PDF statistics:
- 743 PDF objects out of 1000 (max. 8388607)
- 638 compressed objects within 7 object streams
- 194 named destinations out of 1000 (max. 500000)
- 569 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 795 PDF objects out of 1000 (max. 8388607)
+ 676 compressed objects within 7 object streams
+ 206 named destinations out of 1000 (max. 500000)
+ 607 words of extra memory for PDF output out of 10000 (max. 10000000)
 

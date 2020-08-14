@@ -455,33 +455,33 @@ dalam naskah ini dan disebutkan dalam daftar pustaka.
   \vskip 12\p@
   \addcontentsline{toc}{chapter}{\abstractname}
 }
-\def\endabstractind{\par\vfil\null\end{singlespace}}
+\def\endabstractind{\par\vfil\null\end{singlespace}
 
 %------------------------------------------------------------
 %Redefine Abstract in English
 %------------------------------------------------------------
-\def\abstracteng{%
-  \clearpage\thispagestyle{chapterheading}\selectlanguage{english}%
-  \chapter*{}%
-  {\centering \normalfont
-  {\vspace{-1.97cm}\textbf{\abstractname}}\\
-  \vspace{1.5cm}
-   {\textbf{\@titleeng}}
-        \par\nobreak
-        \vskip 12\p@
-    \interlinepenalty\@M
-    {\normalsize By\par
-   \vspace{0.5cm}
-    \@fullname\\
-    \@NIM\\
-    \vskip 10\p@
-    }\par\nobreak
-    }
-  \begin{singlespace}%
-  \vskip 12\p@
-  \addcontentsline{toc}{chapter}{\abstractname}
-  }
-\def\endabstracteng{\par\vfil\null\end{singlespace}%
+%\def\abstracteng{%
+%  \clearpage\thispagestyle{chapterheading}\selectlanguage{english}%
+%  \chapter*{}%
+%  {\centering \normalfont
+%  {\vspace{-1.97cm}\textbf{\abstractname}}\\
+%  \vspace{1.5cm}
+%   {\textbf{\@titleeng}}
+%        \par\nobreak
+%        \vskip 12\p@
+%    \interlinepenalty\@M
+%    {\normalsize By\par
+%   \vspace{0.5cm}
+%    \@fullname\\
+%    \@NIM\\
+%    \vskip 10\p@
+%    }\par\nobreak
+%    }
+%  \begin{singlespace}%
+%  \vskip 12\p@
+%  \addcontentsline{toc}{chapter}{\abstractname}
+%  }
+%\def\endabstracteng{\par\vfil\null\end{singlespace}%
 \clearpage\pagenumbering{arabic}\setcounter{page}{1}}
 
 \endinput

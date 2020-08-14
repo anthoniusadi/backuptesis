@@ -18,13 +18,13 @@
 
 
 \begin{document}
-\cover\titlepage
+\cover%\titlepage
 
 %\approvalpage
 %\declarepage
 %Setelah Anda selesai Ujian Akhir Tesis, scan halaman pengesahan yang telah ditandatangani dosen pembimbing dan penguji, scan juga halaman pernyataan yang telah Anda tandatangani. Selanjutnya simpan hasil scan tersebut dalam bentuk PDF dengan nama pengesahanskripsi.pdf dan pernyataan.pdf (file disimpan di folder yang sama dengan folder dimana file Skripsi.tex tersimpan)
 %Hilangkan karakter % sebelum perintah "\approvalpagescan" dan "\declarepage" di bawah ini, dan tambahkan karakter % sebelum perintah "\approvalpage" di atas.
-\approvalpage
+\approvalpagescan
 %\declarepage
 
 
@@ -93,7 +93,7 @@
 \begin{abstractind}
 Bahasa isyarat adalah salah satu bentuk komunikasi non-verbal antar manusia yang memiliki makna tersendiri. \emph{American Sign Language}(ASL) merupakan bentuk dari bahasa isyarat tangan yang digunakan oleh penyandang disabilitas untuk berkomunikasi satu sama lain. Penggunaan bahasa isyarat membantu penyetaraan hak atas informasi yang diberikan. Perkembangan ilmu yang sangat maju membantu seseorang dapat memahami suatu bahasa isyarat tanpa harus mempelajari hal tersebut. Salah satu bagian disiplin ilmu tersebut adalah pengenalan gestur, dimana di dalamnya terdapat bahasa isyarat yang dapat diterjemahkan dengan bantuan kamera.
 
-Kamera digunakan sebagai alat yang mengimitasi mata manusia dalam mengenali sebuah gestur. Proses pengenalan bahasa isyarat memiliki beberapa hal penting di dalamnya. Intensitas cahaya merupakan salah satu faktor penting dalam pengambilan sebuah citra yang ditangkap oleh kamera, dimana merupakan suatu tantangan tersendiri ketika informasi citra tidak dapat ditangkap dengan jelas yang menyebabkan penurunan performa. Permasalahan ini dapat diatasi dengan menggunakan teori Retinex yang diambil dari kata retina dan cortex. Retinex mampu meningkatkan tingkat kecerahan citra dengan cara layaknya mata manusia yang dapat melihat walaupun dalam ruangan minim cahaya. Citra yang telah dilakukan perbaikan kontras akan dilakukan deteksi tangan kemudian akan dikenali bahasa isyarat tersebut menggunakan teknik \emph{Convolution Neural Network}.
+Kamera digunakan sebagai alat yang mengimitasi mata manusia dalam mengenali sebuah gestur. Proses pengenalan bahasa isyarat memiliki beberapa hal penting di dalamnya. Intensitas cahaya merupakan salah satu faktor penting dalam pengambilan sebuah citra yang ditangkap oleh kamera, dimana merupakan suatu tantangan tersendiri ketika informasi citra tidak dapat ditangkap dengan jelas yang menyebabkan penurunan performa. Permasalahan ini dapat diatasi dengan menggunakan teori \emph{Retinex} yang diambil dari kata retina dan cortex. \emph{Retinex} mampu meningkatkan tingkat kecerahan citra dengan cara layaknya mata manusia yang dapat melihat walaupun dalam ruangan minim cahaya. Citra yang telah dilakukan perbaikan kontras akan dilakukan deteksi tangan kemudian akan dikenali bahasa isyarat tersebut menggunakan teknik \emph{Convolution Neural Network}.
 
 \textbf{\emph{Kata kunci - Retinex, Hand Gesture Recognition, Object Detection} }
 \end{abstractind}
@@ -103,13 +103,13 @@ Kamera digunakan sebagai alat yang mengimitasi mata manusia dalam mengenali sebu
 %-----------------------------------------------------------------
 %Disini awal masukan untuk Abstract (ISI SESUAI DENGAN DATA ANDA!)
 %-----------------------------------------------------------------
-\begin{abstracteng}
-Gestures are one of meaningful non-verbal communication among humans. American Sign Language(ASL) is an example hand gesture useful for communicating disability persons to others. Sign language helps people to get right about information provided. Rapid scientific progress can help people to recognize sign language without having to learn. It called gesture recognition, which contains sign languages that can be translated by using camera.
+%\begin{abstracteng}
+%Gestures are one of meaningful non-verbal communication among humans. American Sign Language(ASL) is an example hand gesture useful for communicating disability persons to others. Sign language helps people to get right about information provided. Rapid scientific progress can help people to recognize sign language without having to learn. It called gesture recognition, which contains sign languages that can be translated by using camera.
 
-The camera is used to be human eyes to recognize gestures. Process of recognizing gesture has several important things. Light intensity is most important thing when image is taken by the camera,  which is a challenge when an image information is unclear makes performance degradation. The solution of low-light environment can be handled by using retinex theory, it's taken from the words retina and cortex. Retinex can increase contrast level image like a human eyes can see in a low-light environment. After light-enhanced, hand will be detected and gesture of an image will be recognized by using convolutional neural network.
+%The camera is used to be human eyes to recognize gestures. Process of recognizing gesture has several important things. Light intensity is most important thing when image is taken by the camera,  which is a challenge when an image information is unclear makes performance degradation. The solution of low-light environment can be handled by using retinex theory, it's taken from the words retina and cortex. Retinex can increase contrast level image like a human eyes can see in a low-light environment. After light-enhanced, hand will be detected and gesture of an image will be recognized by using convolutional neural network.
 
-\textbf{\emph{Keywords - Retinex, Hand Gesture Recognition, Object Detection} }
-\end{abstracteng}
+%\textbf{\emph{Keywords - Retinex, Hand Gesture Recognition, Object Detection} }
+%\end{abstracteng}
 %-----------------------------------------------------------------
 %-----------------------------------------------------------------
 
@@ -203,13 +203,22 @@ Howard, A.G., Zhu, M., Chen, B., Kalenichenko, D., Wang, W., Weyand, T., Andreet
 Sandler, M., Howard, A., Zhu, M., Zhmoginov, A. \& Chen, L.C., 2018, \emph{MobileNetV2: Inverted Residuals and Linear Bottlenecks}, Proceedings of the IEEE Computer Society Conference on Computer Vision and Pattern Recognition, 45104520.
 
 \bibitem[Google(2018)]{goog}
-Google AI Blog, 2018, \emph{MobileNetV2: The Next Generation of On-Device Computer Vision Networks}[Daring], tersedia di \emph{ai.googleblog.com/2018/04/mobilenetv2-next-generation-of-on.html?m=1}.
+Google AI Blog., 2018, \emph{MobileNetV2: The Next Generation of On-Device Computer Vision Networks}[Daring], tersedia di \emph{ai.googleblog.com/2018/04/mobilenetv2-next-generation-of-on.html?m=1}.
 
 \bibitem[Leonard(2017)]{Leo}
 Leonard, L.C., 2017, \emph{Web-Based Behavioral Modeling for Continuous User 
 	Authentication (CUA)}, 1 edisi, Elsevier Inc., [Daring]. tersedia di 
 DOI:10.1016/bs.adcom.2016.12.001.
+
+\bibitem[Hui(2018)]{hui}
+Hui, Jonathan., 2018, \emph{mAP (mean Average Precision) for Object Detection}[Daring], tersedia di \emph{www.medium.com/@jonathan\_hui/map-mean-average-precision-for-object-detection-45c121a31173}.
+\bibitem[Chen(2015) ]{chen}
+Chen, X., Fang, H., Lin, T.Y., Vedantam, R., Gupta, S., Dollár, P \& Zitnick, C.L., 2015, \emph{Microsoft COCO Captions: Data Collection and Evaluation Server}, arXiv:1504.00325
+
+\bibitem[Hanumantharaju(2014)]{Han}
+Hanumantharaju, M.C., Ravishankar, M., Rameshbabu, D.R., Manjunath Aradhya V.N., 2014, \emph{A new framework for retinex-based colour image enhancement using particle swarm optimisation}, International Journal of Swarm Intelligence, 2014 Vol.1 No.2, pp.133-155, DOI:10.1504/IJSI.2014.060241.
 \end{thebibliography}
+
 %-----------------------------------------------------------------
 %-----------------------------------------------------------------
 

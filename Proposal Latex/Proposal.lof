@@ -17,11 +17,13 @@
 \contentsline {figure}{\numberline {3.13}{\ignorespaces Metrik Evaluasi COCO (Chen et al., 2015)\relax }}{25}{figure.caption.24}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Alur Kegiatan Penelitian\relax }}{27}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Rancangan Pengujian Sistem\relax }}{27}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Sample Dataset ASL Massey University (Barczak et al., 2011)\relax }}{28}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Setup Pengambilan Dataset (Barczak et al., 2011)\relax }}{29}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Transfer Learning Pelatihan Gestur\relax }}{30}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Arsitektur Mobilenet V2 (Sandler et al., 2018)\relax }}{31}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Skema Pengujian Deteksi Tangan\relax }}{33}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Skema Pengujian Pengenalan Gestur Tangan\relax }}{34}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Rancangan Sistem\relax }}{28}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ilustrasi Perbaikan Kontras Menggunakan Retinex (a) Citra Asli; (b) Citra Hasil Perbaikan(Petro et al., 2014)\relax }}{32}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Skema Pengambilan Dataset (Barczak et al., 2011)\relax }}{34}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Transfer Learning Pelatihan Gestur\relax }}{35}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Arsitektur Mobilenet V2 (Sandler et al., 2018)\relax }}{36}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Ilustrasi Pengujian Deteksi Tangan\relax }}{38}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Skema Kegiatan Pengujian Deteksi Tangan\relax }}{38}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Skema Kegiatan Pengujian Pengenalan Gestur Tangan\relax }}{40}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Ilustrasi Pengujian Pengenalan Gestur Tangan\relax }}{40}{figure.caption.35}%
 \addvspace {10\p@ }

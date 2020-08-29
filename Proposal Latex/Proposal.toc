@@ -41,19 +41,20 @@
 \contentsline {section}{\numberline {4.1.}Studi Literatur}{26}{section.4.1}%
 \contentsline {section}{\numberline {4.2.}Alat dan Bahan}{26}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1.}Alat}{26}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2.}Bahan}{26}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3.}Prosedur Kerja}{26}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1.}Analisis dan Perancangan Sistem}{26}{subsection.4.3.1}%
-\contentsline {section}{\numberline {4.4.}Pengumpulan Data}{28}{section.4.4}%
-\contentsline {section}{\numberline {4.5.}Proses Pelatihan}{29}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1.}Pelatihan Gesture Recognition}{30}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2.}Pelatihan Object Detection}{30}{subsection.4.5.2}%
-\contentsline {section}{\numberline {4.6.}Pengujian dan Evaluasi}{31}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1.}Evaluasi Deteksi Tangan}{31}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2.}Evaluasi Pengenalan Gestur Tangan}{32}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3.}Pengujian SNR}{32}{subsection.4.6.3}%
-\contentsline {subsection}{\numberline {4.6.4.}Pengujian Deteksi Tangan Menggunakan Retinex}{32}{subsection.4.6.4}%
-\contentsline {subsection}{\numberline {4.6.5.}Pengujian Pengenalan Gestur Tangan Menggunakan Retinex}{34}{subsection.4.6.5}%
-\contentsline {subsection}{\numberline {4.6.6.}Pengujian Sistem Keseluruhan}{36}{subsection.4.6.6}%
-\contentsline {chapter}{\numberline {V}JADWAL PENELITIAN}{37}{chapter.5}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{38}{chapter*.36}%
+\contentsline {subsection}{\numberline {4.2.2.}Bahan}{27}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3.}Prosedur Kerja}{27}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1.}Analisis dan Perancangan Sistem}{27}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2.}Pra-proses}{29}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3.}Pengumpulan Data}{32}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4.}Proses Pelatihan}{34}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1.}Pelatihan Gesture Recognition}{34}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2.}Pelatihan Object Detection}{35}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5.}Pengujian dan Evaluasi}{36}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1.}Evaluasi Deteksi Tangan}{36}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2.}Evaluasi Pengenalan Gestur Tangan}{37}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3.}Pengujian SNR}{37}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4.}Pengujian Deteksi Tangan Menggunakan Retinex}{37}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.5.}Pengujian Pengenalan Gestur Tangan Menggunakan Retinex}{39}{subsection.4.5.5}%
+\contentsline {subsection}{\numberline {4.5.6.}Pengujian Sistem Keseluruhan}{42}{subsection.4.5.6}%
+\contentsline {chapter}{\numberline {V}JADWAL PENELITIAN}{43}{chapter.5}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{44}{chapter*.38}%

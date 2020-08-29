@@ -43,16 +43,17 @@
 \BOOKMARK [2][-]{subsection.4.2.2}{Bahan}{section.4.2}% 43
 \BOOKMARK [1][-]{section.4.3}{Prosedur Kerja}{chapter.4}% 44
 \BOOKMARK [2][-]{subsection.4.3.1}{Analisis dan Perancangan Sistem}{section.4.3}% 45
-\BOOKMARK [1][-]{section.4.4}{Pengumpulan Data}{chapter.4}% 46
-\BOOKMARK [1][-]{section.4.5}{Proses Pelatihan}{chapter.4}% 47
-\BOOKMARK [2][-]{subsection.4.5.1}{Pelatihan Gesture Recognition}{section.4.5}% 48
-\BOOKMARK [2][-]{subsection.4.5.2}{Pelatihan Object Detection}{section.4.5}% 49
-\BOOKMARK [1][-]{section.4.6}{Pengujian dan Evaluasi}{chapter.4}% 50
-\BOOKMARK [2][-]{subsection.4.6.1}{Evaluasi Deteksi Tangan}{section.4.6}% 51
-\BOOKMARK [2][-]{subsection.4.6.2}{Evaluasi Pengenalan Gestur Tangan}{section.4.6}% 52
-\BOOKMARK [2][-]{subsection.4.6.3}{Pengujian SNR}{section.4.6}% 53
-\BOOKMARK [2][-]{subsection.4.6.4}{Pengujian Deteksi Tangan Menggunakan Retinex}{section.4.6}% 54
-\BOOKMARK [2][-]{subsection.4.6.5}{Pengujian Pengenalan Gestur Tangan Menggunakan Retinex}{section.4.6}% 55
-\BOOKMARK [2][-]{subsection.4.6.6}{Pengujian Sistem Keseluruhan}{section.4.6}% 56
-\BOOKMARK [0][-]{chapter.5}{JADWAL PENELITIAN}{}% 57
-\BOOKMARK [0][-]{chapter*.36}{DAFTAR PUSTAKA}{}% 58
+\BOOKMARK [2][-]{subsection.4.3.2}{Pra-proses}{section.4.3}% 46
+\BOOKMARK [2][-]{subsection.4.3.3}{Pengumpulan Data}{section.4.3}% 47
+\BOOKMARK [1][-]{section.4.4}{Proses Pelatihan}{chapter.4}% 48
+\BOOKMARK [2][-]{subsection.4.4.1}{Pelatihan Gesture Recognition}{section.4.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.2}{Pelatihan Object Detection}{section.4.4}% 50
+\BOOKMARK [1][-]{section.4.5}{Pengujian dan Evaluasi}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.5.1}{Evaluasi Deteksi Tangan}{section.4.5}% 52
+\BOOKMARK [2][-]{subsection.4.5.2}{Evaluasi Pengenalan Gestur Tangan}{section.4.5}% 53
+\BOOKMARK [2][-]{subsection.4.5.3}{Pengujian SNR}{section.4.5}% 54
+\BOOKMARK [2][-]{subsection.4.5.4}{Pengujian Deteksi Tangan Menggunakan Retinex}{section.4.5}% 55
+\BOOKMARK [2][-]{subsection.4.5.5}{Pengujian Pengenalan Gestur Tangan Menggunakan Retinex}{section.4.5}% 56
+\BOOKMARK [2][-]{subsection.4.5.6}{Pengujian Sistem Keseluruhan}{section.4.5}% 57
+\BOOKMARK [0][-]{chapter.5}{JADWAL PENELITIAN}{}% 58
+\BOOKMARK [0][-]{chapter*.38}{DAFTAR PUSTAKA}{}% 59

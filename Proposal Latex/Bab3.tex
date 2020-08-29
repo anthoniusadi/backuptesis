@@ -107,42 +107,46 @@ Salah satu bahasa isyarat yang digunakan adalah \emph{American Sign Language}(AS
 \end{figure}
 %!=============================================== Retinex
 \section{Retinex(Single Scale Retinex)}
-Algoritme \emph{Retinex} merupakan algoritme yang berusaha untuk mempertahankan ketetapan warna dimana warna suatu objek yang dilihat dalam keadaan pencahayaan yang berbeda(Aribowo et al., 2009). Algoritme \emph{Retinex} ini sering juga disebut dengan \emph{Single Scale Retinex} (SSR) karena hanya memiliki satu kanal. Sebuah citra terbentuk sebagai hasil jumlahan produk radiasi dan reflektansi. Berdasarkan teori \emph{Retinex} dapat dituliskan secara matematis seperti Persamaan 3.10 berikut(Saputra., 2016):
+Algoritme \emph{Retinex} merupakan algoritme yang berusaha untuk mempertahankan ketetapan warna dimana warna suatu objek yang dilihat dalam keadaan pencahayaan yang berbeda(Aribowo et al., 2009). Algoritme \emph{Retinex} ini sering juga disebut dengan \emph{Single Scale Retinex} (SSR) karena hanya memiliki satu kanal. Menurut Land sebuah citra terbentuk sebagai perkalian reflektansi dan iluminasi. Berdasarkan teori \emph{Retinex} dapat dituliskan secara matematis seperti Persamaan 3.10 berikut(Parihar \& Singh., 2018)(Petro et al., 2014):
 \begin{equation}
-	I(x,y) = L(x,y) x R(x,y)
-\end{equation}
-dimana 
-\begin{equation}
-	L(x,y) = I(x,y) x F(x,y)
+	I(x,y) = L(x,y) \boldsymbol{\cdot} R(x,y)
 \end{equation}
 \begin{equation}
-F(x,y) = K.e^{(-\frac{x^2 + y^2}{\sigma})}
+	\log I(x,y) = \log L(x,y) + \log R(x,y)
+\end{equation}
+\begin{equation}
+	\log R(x,y) = \log I(x,y)-\log L(x,y)
+\end{equation}
+dimana
+\begin{equation}
+	L(x,y)=F(x,y) * I(x,y)
+\end{equation}
+\begin{equation}
+F(x,y) = \frac{1}{2\pi \sigma^2}e^{-(\frac{x^2 + y^2}{2\sigma^2})}
+\end{equation}
+\begin{equation}
+	\int F(x,y) dxdy = 1
+\end{equation}
+sehingga
+\begin{equation}
+\log R = \log I(x,y) - \log [F(x,y) * I(x,y)]
 \end{equation}
 Keterangan :\\
 \(I(x,y) \ :\) representasi dari kumpulansinyal dari citra asli.\\
-\(R(x,y) :\) representasi dari komponen refleksi dari objek target.\\
-\(L(x,y) :\) representasi komponen pencahayaan yang memenuhi Persamaan 3.10.\\
-\(F(x,y) : \) \emph{gaussian surround function} yang memenuhi Persamaan 3.11.
+\(R(x,y) :\) representasi dari komponen reflektansi dari objek.\\
+\(L(x,y) :\) representasi komponen pencahayaan yang memenuhi Persamaan 3.12.\\
+\(F(x,y) : \) \emph{gaussian function} yang memenuhi Persamaan 3.13.
 
-Bentuk logaritmik pada Persamaan 3.13 digunakan untuk memisahkan antara komponen pencahayaan dan komponen refleksinya. Pemisahan ini dilakukan untuk mendapatkan informasi dari citra tersebut sehingga hasil \emph{Single Scale Retinex} dapat dilihat pada Persamaan 3.14, dimana \(R_{SSR}\) adalah hasil \emph{Single Scale Retinex} pada kanal \(i\) (Saputra., 2016).
-
+Bentuk logaritmik pada Persamaan 3.11 digunakan untuk memisahkan antara komponen pencahayaan dan komponen reflektansinya. Pemisahan ini dilakukan untuk mendapatkan informasi dari citra tersebut sehingga hasil \emph{Single Scale Retinex} dapat dilihat pada Persamaan 3.17, dimana $\log R =$ \(R_{SSRi}\) adalah hasil \emph{Single Scale Retinex} pada kanal \(i\) (Parihar \& Singh., 2018)(Petro et al., 2014).
 \begin{equation}
 \centering
-	\log I(x,y) = \log L(x,y)  x  \log(x,y)
-\end{equation}
-
-\begin{equation}
-\centering
-R_{SSR} = \log I(x,y) - \log [f(x,y)* I_i(x,y)]
+R_{SSRi}(x,y) = \log I_i(x,y) - \log [F(x,y) * I_i(x,y)]
 \end{equation}
 %!=============================================== MSR==============================
 \subsection{Multiscale Retinex(MSR)}
-\emph{Multiscale Retinex} merupakan pengembangan dari \emph{Single Scale Retinex} dengan menggabungkan beberapa scale  yang berbeda dengan pembobotan tertentu. Sehingga nilai  sangat mempengaruhi detail warna dari sebuah citra. Bentuk matematis dari \emph{multiscale Retinex} dapat dilihat pada Persamaa 3.15 dan 3.16 berikut(Saputra., 2016):
+\emph{Multiscale Retinex} merupakan pengembangan dari \emph{Single Scale Retinex} dengan menggabungkan beberapa scale  yang berbeda dengan pembobotan tertentu, dimana bobot tersebut jika dijumlahkan menghasilkan nilai 1. Sehingga nilai  sangat mempengaruhi detail warna dari sebuah citra. Bentuk matematis dari \emph{multiscale Retinex} dapat dilihat pada Persamaa 3.15 dan 3.16 berikut(Petro et al., 2014):
 \begin{equation}
-R_{MSRi} = \sum_{n=1}^{N} \omega_n R_{ni}
-\end{equation}
-\begin{equation}
-R_{ni}(x,y) = \log I(x,y) - \log [f_n(x,y)* I_i(x,y)]
+R_{MSRi} = \sum_{n=1}^{N} \omega_n R_{SSRi}=\omega_n [\log I(x,y) - \log (F_n(x,y) * I_i(x,y))]
 \end{equation}
 Keterangan :
 \\
@@ -152,28 +156,22 @@ Keterangan :
 Pada SSR dapat menyediakan kompresi rentang dinamis dan penampakan warna, namun keduanya tidak secara bersamaan. Oleh karena itu \emph{Multiscale Retinex} menggabungkan kompresi rentang dinamis dari \emph{Single Scale Retinex} dengan penampakan warna(Aribowo et al., 2009).
 %!=============================================== MSRCR
 \subsection{Multiscale Retinex Color Restoration(MSRCR)}
-MSRCR merupakan pengembangan dari metode MSR yang mampu memperbaiki kualitas citra yang berhubungan dengan pencahayaan yaitu dengan mempertahankan \emph{color constancy}. \emph{Color constancy} berfungsi untuk mempertahankan komposisi warna suatu citra tetap terlihat sama walaupun kondisi pencahayaan yang berbeda-beda (Saputra., 2016). Perhitungan MSRCR dapat dilihat pada Persamaan 3.17, 3.18, 3.19, 3.20, 3.21(Hanumantharaju et al., 2014).
+MSRCR merupakan pengembangan dari metode MSR yang mampu memperbaiki kualitas citra yang berhubungan dengan pencahayaan yaitu dengan mempertahankan \emph{color constancy}. \emph{Color constancy} berfungsi untuk mempertahankan komposisi warna suatu citra tetap terlihat sama walaupun kondisi pencahayaan yang berbeda-beda (Saputra., 2016). Perhitungan MSRCR dapat dilihat pada Persamaan 3.19, 3.20, 3.21 dan 3.22(Petro et al., 2014).
 \begin{equation}
-	R'_{MSRCR}(x,y) = C_i(x,y) R_{MSR_i}(x,y)	
-\end{equation}
-
-\begin{equation}
-	C_i(x,y) = f[I'_i(x,y)]
-\end{equation}
-
-\begin{equation}
-	I'(x,y) = I_i(x,y) / \sum_{i=0}^{S}I_i(x,y)
-\end{equation}
-
-\begin{equation}
-	C_i(x,y) = \beta {\log[\alpha I_i]-\log[\sum_{i=0}^{S}I_i(x,y)]}\\
+	R'_{MSRCRi}(x,y) = C_i(x,y) \ R_{MSR_i}(x,y)	
 \end{equation}
 \begin{equation}
-	R_{MSRCR}(x,y) = G \ X\ [R'_{MSRCR}(x,y)+b]
+	C_i(x,y) = \beta \ {\log[\alpha I'_i(x,y)]}\\
+\end{equation}
+\begin{equation}
+I'(x,y) =\frac{I_i(x,y)}{\sum_{i=0}^{S}I_i(x,y)}
+\end{equation}
+\begin{equation}
+	R_{MSRCRi}(x,y) = G \ [R'_{MSRCRi}(x,y)-b]
 \end{equation}
 \noindent Keterangan :\\
-S = 3 kanal warna RGB\\
-$\alpha$ = konstanta kontrol\\
+$i$ = 3 kanal warna RGB\\
+$\alpha$ = konstanta kontrol ketidaklinieran\\
 $\beta$ = konstanta gain\\
 $G$,$b$ = gain dan offset
 %!=============================================== MOBILENET
@@ -183,16 +181,16 @@ $G$,$b$ = gain dan offset
 \emph{Depthwise separable convolution} merupakan kunci utama untuk membangun arsitektur \emph{neural network}. Ide utamanya adalah mengganti operator konvolusi secara menyeluruh dengan memisahkan konvolusi menjadi dua lapisan terpisah. Layer pertama adalah \emph{depthwise convolution}, layer ini memiliki \emph{light-weight filter} dengan menggunakan \emph{single convolutional filter} untuk setiap input channel. Layer kedua menggunakan 1x1 convolution yang disebut dengan \emph{pointwise convolution} dimana layer ini membentuk fitur fitur baru melalui perhitungan kombinasi linear dari input channel. 
 
 Pada konvolusi biasa memiliki input citra $D_F$ x $D_F$ x $M $ fitur map pada $F$ dan menghasilkan $ D_G$ x $D_G$ x $N $ fitur map pada $G$, dimana $D_F$ adalah tinggi dan lebar dari fitur map. $M$ merupakan jumlah input channel(input depth). 
-$D_G$ merupakan tinggi dan lebar keluaran fitur map dan $N$ adalah keluaran channel dari fitur map\emph{(output depth)}. Kemudian kernel pada konvolusi biasa $D_K$ x $D_K$ x $M$ x $N$, dimana $D_K$ adalah dimensi kernel, $M$ jumlah input channel dan $N$ jumlah keluaran channel. Total cost dari konvolusi biasa memiliki ketergantungan pada $M$ pada Persamaan 3.22.
+$D_G$ merupakan tinggi dan lebar keluaran fitur map dan $N$ adalah keluaran channel dari fitur map\emph{(output depth)}. Kemudian kernel pada konvolusi biasa $D_K$ x $D_K$ x $M$ x $N$, dimana $D_K$ adalah dimensi kernel, $M$ jumlah input channel dan $N$ jumlah keluaran channel. Total cost dari konvolusi biasa memiliki ketergantungan pada $M$ pada Persamaan 3.23.
 \begin{equation}
 	D_K \bullet D_K \bullet M \bullet N \bullet D_F \bullet D_F
 \end{equation}
 
-\emph{Depthwise separable convolution} terbentuk dari layer \emph{depthwise convolution} dan \emph{pointwise convolution}. \emph{Depthwise convolution} sangat efisien daripada konvolusi biasa, namun pada layer \emph{depthwise} tersebut tidak menghasilkan fitur baru, oleh karena itu digunakan tambahan layer \emph{pointwise convolution} untuk menghitung linier kombinasi dari keluaran \emph{depthwise convolution} menggunakan 1x1 \emph{convolutio}n ,sehingga menghasilkan fitur baru. Total cost dari \emph{depthwise convolution} pada Persamaan 3.23.
+\emph{Depthwise separable convolution} terbentuk dari layer \emph{depthwise convolution} dan \emph{pointwise convolution}. \emph{Depthwise convolution} sangat efisien daripada konvolusi biasa, namun pada layer \emph{depthwise} tersebut tidak menghasilkan fitur baru, oleh karena itu digunakan tambahan layer \emph{pointwise convolution} untuk menghitung linier kombinasi dari keluaran \emph{depthwise convolution} menggunakan 1x1 \emph{convolutio}n ,sehingga menghasilkan fitur baru. Total cost dari \emph{depthwise convolution} pada Persamaan 3.24.
 \begin{equation}
 D_K \bullet D_K \bullet M \bullet D_F \bullet D_F
 \end{equation}
-Kombinasi kedua layer tersebut dinamakan \emph{deptwise separable convolution} yang memiliki total cost Persamaan 3.24 :
+Kombinasi kedua layer tersebut dinamakan \emph{deptwise separable convolution} yang memiliki total cost Persamaan 3.25 :
 \begin{equation}
 D_K \bullet D_K \bullet M \bullet N \bullet D_F \bullet D_F + M \bullet N \bullet D_F \bullet D_F
 \end{equation}
@@ -210,7 +208,7 @@ Perbedaan \emph{MobileNet} versi kedua merupakan pengembangan dari \emph{MobileN
 Sehingga arsitektur dalam \emph{MobileNetV2} menjadi \emph{bottleneck depth-separable convolution residuals}. Arsitektur \emph{bottleneck} dituliskan pada Tabel 3.1.
 \begin{table}[H]
 	\caption{Blok Arsitektur \emph{Bottleneck MobileNetV2} (Sandler et al., 2018)}
-	\vspace{0.2cm}
+	\vspace{0cm}
 	\centering
 	\begin{tabular}{|p{3cm}|p{4cm}|p{3cm}|}
 		\hline
@@ -258,7 +256,7 @@ hanya region lokal kecil dari input terhubung dengan sebuah hidden neuron
 (Nielsen., 2015). Pada Gambar 3.8 terlihat bahwa hanya sebagian kecil region
 yang \emph{localized} dari input neuron yang terhubung dengan hidden neuron.
 % TODO: \usepackage{graphicx} required
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\linewidth]{hidenneuron}
 	\caption{Ilustrasi \emph{local receptive fields} (Nielsen., 2015)}
@@ -318,7 +316,7 @@ mendeteksi fitur yang sama dengan lokasi pada input citra yang berbeda (Nielsen.
 
 %!=============================================== Konvolusi
 \subsection{Konvolusi}
-Lapisan yang pertama kali akan dilewati oleh data masukan adalah lapisan konvolusi, bertujuan untuk memperoleh feature map yang merepresentasikan masukan. Parameter yang digunakan untuk menentukan ukuran feature map keluaran berupa filter, ukuran dari filter, besarnya langkah pergeseran filter pada operasi konvolusi atau biasa disebut stride, dan ukuran padding. Cara menghitung ukuran dari keluaran operasi konvolusi ditunjukkan pada Persamaan 3.25 dan 3.26  berikut(Nielsen., 2015):
+Lapisan yang pertama kali akan dilewati oleh data masukan adalah lapisan konvolusi, bertujuan untuk memperoleh feature map yang merepresentasikan masukan. Parameter yang digunakan untuk menentukan ukuran feature map keluaran berupa filter, ukuran dari filter, besarnya langkah pergeseran filter pada operasi konvolusi atau biasa disebut stride, dan ukuran padding. Cara menghitung ukuran dari keluaran operasi konvolusi ditunjukkan pada Persamaan 3.26 dan 3.27  berikut(Nielsen., 2015):
 \begin{equation}
 H_0 = \frac{H-F+2P}{S}+1
 \end{equation}
@@ -340,7 +338,7 @@ Keterangan : \\
 \\
 \(S\)  = ukuran stride 
 
-Nilai semua elemen pada persamaan tersebut harus merupakan bilangan bulat karena akan merepresentasikan suatu ukuran feature map. Apabila terdapat salah satu nilai yang bukan merupakan bilangan bulat, nilai tersebut harus dibulatkan dengan melakukan pembulatan kebawah. Adapun cara menghitung nilai keluaran dari proses konvolusi dapat dilihat pada Persamaan 3.27 berikut(Nielsen., 2015):
+Nilai semua elemen pada persamaan tersebut harus merupakan bilangan bulat karena akan merepresentasikan suatu ukuran feature map. Apabila terdapat salah satu nilai yang bukan merupakan bilangan bulat, nilai tersebut harus dibulatkan dengan melakukan pembulatan kebawah. Adapun cara menghitung nilai keluaran dari proses konvolusi dapat dilihat pada Persamaan 3.278berikut(Nielsen., 2015):
 \begin{equation}
 O_{mn}=\sum I^k_{i,j} . F_{i,j}
 \end{equation}
@@ -353,7 +351,7 @@ Keterangan :
 \(F_{i,j}\)= elemen matriks filter pada baris ke-i kolom ke –j.
 %!=============================================== Fungsi Aktivasi
 \subsection{Fungsi Aktivasi}
-Salah satu faktor signifikan mempengaruhi kinerja algoritme Convolutional Neural Network adalah penerapan fungsi aktivasi dalam jaringan. Fungsi ini membantu menyelesaikan permasalah-permasalahan yang bersifat non-trivial dalam suatu jaringan dengan cara mengambil sebuah nilai dan melakukan operasi matematika. Fungsi aktivasi ini diletakkan di perhitungan akhir dari keluaran feature map atau setelah layer konvolusi dan subsampling layer. Fungsi aktivasi yang sering digunakan adalah Rectified Linear Unit (ReLU) karena fungsi ini lebih cepat daripada fungsi aktivasi non-linear lainnya seperti sigmoid atau tanh. Fungsi ReLU dapat dilihat pada Persamaan 3.28 dan 3.29(Nielsen., 2015):
+Salah satu faktor signifikan mempengaruhi kinerja algoritme Convolutional Neural Network adalah penerapan fungsi aktivasi dalam jaringan. Fungsi ini membantu menyelesaikan permasalah-permasalahan yang bersifat non-trivial dalam suatu jaringan dengan cara mengambil sebuah nilai dan melakukan operasi matematika. Fungsi aktivasi ini diletakkan di perhitungan akhir dari keluaran feature map atau setelah layer konvolusi dan subsampling layer. Fungsi aktivasi yang sering digunakan adalah Rectified Linear Unit (ReLU) karena fungsi ini lebih cepat daripada fungsi aktivasi non-linear lainnya seperti sigmoid atau tanh. Fungsi ReLU dapat dilihat pada Persamaan 3.29 dan 3.30(Nielsen., 2015):
 \begin{equation}
 f(x) = ReLU(x) =max(0,x)
 \end{equation}
@@ -362,7 +360,7 @@ f(x) = ReLU(x) =max(0,x)
 \end{equation}
 \section{Evaluasi}
 \subsection{Confussion Matrix}
-Pengukuran evaluasi dari pengujian dapat dilakukan menggunakan \emph{confusion matrix}. tabel \emph{confusion matrix} merupakan tabel klasifikasi yang bersifat prediktif seperti ditunjukan pada Gambar 3.11. Evaluasi menggunakan confussion matrix dapat digunakan untuk mengukur nilai akurasi dengan Persaman 3.30.
+Pengukuran evaluasi dari pengujian dapat dilakukan menggunakan \emph{confusion matrix}. tabel \emph{confusion matrix} merupakan tabel klasifikasi yang bersifat prediktif seperti ditunjukan pada Gambar 3.11. Evaluasi menggunakan confussion matrix dapat digunakan untuk mengukur nilai akurasi dengan Persaman 3.31.
 % TODO: \usepackage{graphicx} required
 \begin{figure}[H]
 \centering
@@ -378,7 +376,7 @@ $TP$ = True Positif, objek berupa gestur tangan dan terkenali\\
 $FP$ = False Positif, objek berupa gestur tangan tapi tidak terkenali
 \subsection{Average Precicion(AP)}
 \emph{Average Precicion} adalah metrik populer untuk melakukan evaluasi pada objek detektor seperti \emph{Faster-RCNN, SSD, dan lainnya}. AP menghitung nilai rata rata nilai presisi untuk nilai recall 0 hingga 1 (Hui., 2018). Evaluasi deteksi menggunakan konsep IoU(\emph{intersection over union})
-IoU menghitung interseksi kedua bounding boxes dimana terdiri dari ground truth dan prediksi dari bounding box digambarkan pada Gambar 3.12 dan perhitungan IoU pada Persamaan 3.31.
+IoU menghitung interseksi kedua bounding boxes dimana terdiri dari ground truth dan prediksi dari bounding box digambarkan pada Gambar 3.12 dan perhitungan IoU pada Persamaan 3.32.
 % TODO: \usepackage{graphicx} required
 \begin{figure}[H]
 	\centering
@@ -398,7 +396,7 @@ FN(\emph{False Negative}) terdapat objek namun tidak mendeteksi apapun.
 FP(\emph{False Positive}) tidak terdapat objek namun hasilnya terdeteksi.
 TP(\emph{True Positive}) terdapat objek dan terdeteksi.
 TN(\emph{True Negative}) akan terjadi jika tidak ada objek dan tidak terdeteksi apapun.
-Berdasarkan nilai yang didapat maka diketahui presisi dan recall menggunakan Persamaan 3.32 dan Persamaan 3.33 (Hui., 2018).
+Berdasarkan nilai yang didapat maka diketahui presisi dan recall menggunakan Persamaan 3.33 dan Persamaan 3.34 (Hui., 2018).
 \begin{equation}
 	presisi = \frac{TP}{TP+FP}
 \end{equation}

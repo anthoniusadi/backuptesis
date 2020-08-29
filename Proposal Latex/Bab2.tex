@@ -7,7 +7,7 @@ Peningkatkan pencahayaan pada citra dapat dilakukan dengan banyak metode. Selain
 
 Pada citra keluaran \emph{Histogram Equalization} (BBHE dan DSIE), citra mengalami meningkatkan kontras dengan keterbatasan beberapa fitur yang tidak terlihat, Keluaran RLBHE mereduksi kualitas dari piksel. Kemudian dengan citra keluaran \emph{Retinex}, citra mengalami peningkatan kontras dengan fitur yang terlihat lebih jelas daripada citra \emph{Histogram Equalization}.
 
-Algoritme Retinex telah mengalami pengembangan untuk meningkatkan kualitas citra pada kondisi lingkungan tertentu. Saputra ditahun 2016 melakukan perbandingan variasi Retinex untuk peningkatan deteksi wajah yang dilakukan pada kondisi ruangan berintensitas rendah. Algoritme \emph{Adaptive Multiscale Retinex} (AMSR), \emph{Multiscale Retinex Color Restoration}(MSRCR) di implementasikan pada 4 kondisi cahaya. Hasil peningkatan maksimal yang didapatkan pada MSRCR dapat meningkatkan 1.46 kali dan ASMR mampu meningkatkan 1.11 kali. Namun peningkatan tersebut terjadi pada parameter intensitas 273.25 lux(Saputra., 2016).
+Algoritme Retinex telah mengalami pengembangan untuk meningkatkan kualitas citra pada kondisi lingkungan tertentu. Saputra ditahun 2016 melakukan perbandingan variasi Retinex untuk peningkatan deteksi wajah yang dilakukan pada kondisi ruangan berintensitas rendah. Algoritme \emph{Adaptive Multiscale Retinex} (AMSR), \emph{Multiscale Retinex Color Restoration}(MSRCR) di implementasikan pada 4 kondisi cahaya. Hasil peningkatan maksimal yang didapatkan pada MSRCR dapat meningkatkan 1,46 kali dan ASMR mampu meningkatkan 1,11 kali. Namun peningkatan tersebut terjadi pada parameter intensitas 273,25 lux(Saputra., 2016).
 
 Pengembangan MSR juga dilakukan oleh (Shen et al., 2017) dengan menambah layer preprocessing/post processing pada proses konvolusi citra pada CNN menjadi MSR-Net. Kemudian dibandingkan dengan MSRCR dan beberapa metode lainnya.  
 Hasil MSR-Net mengalami peningkatan kontras citra dengan warna natural dibandingkan MSRCR dan beberapa metode lainnya.
@@ -21,7 +21,7 @@ Dasar-dasar penelitian sebelumnya yang menjadi tinjauan pustaka pada penelitian 
 \begin{table}[htbp]
 	\caption{Tinjauan Pustaka}
 	\label{labelku}
-	\vspace{0.2cm}
+	\vspace{0cm}
 	
 	\begin{tabular}{|p{0.5cm}|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
 		\hline
@@ -42,16 +42,16 @@ Dasar-dasar penelitian sebelumnya yang menjadi tinjauan pustaka pada penelitian 
 \begin{table}[htpb]
 	\caption{Lanjutan Tabel}
 	\label{labelku}
-	\vspace{0.2cm}
+	\vspace{0cm}
 	\begin{tabular}{|p{0.5cm}|p{2cm}|p{3cm}|p{3cm}|p{4cm}|}
 		\hline
 		4 & (Shen et al., 2017) & \emph{MSR-Net:Low-light Image Enhancement using Deep Convolutional Network} & MSR-net & Hasil dari implementasi algoritme MSR-Net di bandingkan dengan MSRCR dan beberapa algoritme lain mendapatkan kontras yang lebih tinggi dengan warna yang natural dibandingkan algoritme lain.\\
 		\hline
-		5 & (Saputra., 2016) & Perbandingan Varian \emph{Metode Multiscale Retinex} Untuk Peningkatan Akurasi Deteksi Wajah \emph{Adaboost HAAR-like} & Variasi metode \emph{Multiscale Retinex} & Kondisi 439.75 lux MSRCR meningkatkan akurasi 1.31 kali dan
+		5 & (Saputra., 2016) & Perbandingan Varian \emph{Metode Multiscale Retinex} Untuk Peningkatan Akurasi Deteksi Wajah \emph{Adaboost HAAR-like} & Variasi metode \emph{Multiscale Retinex} & Kondisi 439,75 lux MSRCR meningkatkan akurasi 1,31 kali dan
 		AMSR hanya 1,11 kali.
-		Kondisi 273.25 lux MSRCR 1.46 kali dan AMSR 1.31 kali.
+		Kondisi 273,25 lux MSRCR 1,46 kali dan AMSR 1,31 kali.
 		Kondisi 150 lux 
-		MSRCR 1.38 kali dan AMSR 0.97 kali. 
+		MSRCR 1,38 kali dan AMSR 0,97 kali. 
 		Kondisi 9 lux kedua algoritme tidak dapat mendeteksi wajah sebuah citra.\\
 		\hline	
 		
@@ -59,7 +59,7 @@ Dasar-dasar penelitian sebelumnya yang menjadi tinjauan pustaka pada penelitian 
 		\hline	
 		7 & (Arabi, 2019) & Mendeteksi peralatan konstruksi yang diaplikasikan pada embedded system dan PC & \emph{SSD MobileNet} & Untuk semua device mAP $>$ 90\% \\
 		\hline
-		8& (Huang et al., 2019) &\emph{Hand Gesture Recognition with Skin Detection and Deep Learning Method Hand Gesture Recognition with Skin Detection and Deep Learning Method}& \emph{Skin detection} dan \emph{Convolutional Neural Network} & Menghasilkan akurasi 98.41\% \\
+		8& (Huang et al., 2019) &\emph{Hand Gesture Recognition with Skin Detection and Deep Learning Method Hand Gesture Recognition with Skin Detection and Deep Learning Method}& \emph{Skin detection} dan \emph{Convolutional Neural Network} & Menghasilkan akurasi 98,41\% \\
 		\hline
 	\end{tabular}
 \end{table}

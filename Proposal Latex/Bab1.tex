@@ -8,7 +8,9 @@ Mulai banyak penyandang disabilitas yang melakukan mobilitas tinggi dengan kursi
 
 Teknologi yang semakin dewasa membuat mobilitas penyandang disabilitas menjadi lebih tinggi. Kursi roda mungkin dapat digunakan untuk membantu penyandang bergerak dari suatu tempat ke tempat lain, namun bagi beberapa penyandang disabilitas tertentu yang tidak memiliki kemampuan normal pada kondisi tangan atau lumpuh sebagian tidak dapat menggunakan kursi roda tersebut. Alhasil perlu adanya orang lain untuk membantu menngerakan kursi roda tersebut. 
 
-Teknologi komputer dan robotika saat ini memiliki peranan penting dalam membantu sebuah permasalahan dari mulai kegiatan industri hingga kegiatan masyarakat. (Posada-Gómez et al., 2007) Membuat kursi roda pintar dengan kontrol gestur tangan, namun pada penelitian tersebut memiliki kelemahan terhadap cahaya. Intensitas cahaya yang rendah membuat sistem kurang mampu mendeteksi kontrol dari gestur tangan, sehingga hanya dapat digunakan dalam keadaan cahaya terang. Penelitian tersebut menggunakan teknologi pemrosesan citra yang dikombinasikan dengan elektronika dan mekanika untuk pergerakan kursi roda.
+Teknologi komputer dan robotika saat ini memiliki peranan penting dalam membantu sebuah permasalahan dari mulai kegiatan industri hingga kegiatan masyarakat. (Posada-Gómez et al., 2007) Membuat kursi roda pintar dengan kontrol gestur tangan, namun pada penelitian tersebut memiliki kelemahan terhadap cahaya. Intensitas cahaya yang cenderung rendah membuat sistem tidak mampu mendeteksi kontrol dari gestur tangan, sehingga hanya dapat digunakan dalam keadaan cahaya yang cenderung terang. Penelitian tersebut menggunakan teknologi pemrosesan citra yang dikombinasikan dengan elektronika dan mekanika untuk pergerakan kursi roda.
+
+Penelitian yang menggunakan variasi cahaya juga dilakukan oleh (Saputra., 2016) dengan variasi metode \textit{Retinex} dan variasi intensitas cahaya 439,75 lux, 273,25 lux, 150 lux dan 9 lux. Penelitian yang dilakukan untuk meningkatkan akurasi deteksi wajah menggunakan \textit{adaboost haar-like}. Hasil pengujian pada penelitian ini menghasilkan nilai akurasi dengan rata-rata tertinggi dari 10 kali uji 96,67\% pada kondisi 439,75 lux, 90,59\% pada kondisi 273,25 lux, 42,29\% pada kondisi 150 lux dan 0\% pada kondisi 9 lux.
 
 Pemrosesan citra memiliki beberapa hal fundamental permasalahan diantaranya adalah proses perbaikan citra. Perbaikan citra digunakan untuk memperbaiki sebuah citra yang bermasalah agar informasi citra terlihat lebih jelas secara visual maupun perhitungan. Penggunaan \emph{image processing} sangat dibutuhkan untuk membantu menyelesaikan permasalahan dalam kehidupan sehari hari. Aplikasi dari implementasi \emph{image processing} beberapa diantaranya adalah pengenalan dan deteksi pada sebuah objek. Untuk menyelesaikan permasalahan tersebut perlu membuat sistem yang tahan terhadap kondisi cahaya berintensitas rendah.
 
@@ -26,12 +28,10 @@ Berkembangnya algoritme dalam ruang lingkup kondisi cahaya yang minim bertujuan 
 
 Peningkatan kontras menjadi salah satu solusi untuk meningkatkan visibilitas dari sebuah citra. Penelitian ini menggunakan algoritme \emph{Multiscale Retinex Color Restoration} untuk meningkatkan kontras serta \emph{object detection} untuk melakukan segmentasi pada suatu citra, kemudian untuk melakukan pengenalan sebuah gesture yang telah dilakukan perbaikan kontras, akan dilanjutkan dengan metode \emph{Convolutional Neural Network}. 
 
-Implementasi dari peningkatan kontras untuk pengenalan gestur tangan ini diharapkan dapat dibawa untuk menyelesaikan permasalahan pada sistem yang bergantung pada cahaya. Beberapa sistem yang dimaksud seperti kursi roda pintar, ataupun sistem lainnya seperti pengenalan wajah dan pengenalan gestur. 
+Implementasi dari peningkatan kontras untuk pengenalan gestur tangan ini diharapkan dapat dibawa untuk menyelesaikan permasalahan pada sistem yang bergantung pada cahaya. Beberapa sistem yang dimaksud seperti kursi roda pintar, ataupun sistem lainnya seperti pengenalan wajah dan pengenalan gestur maupun pendeteksi suatu objek yang menggunakn kamera. 
 \section{Rumusan Masalah}
-Berdasarkan latar belakang, deteksi dan pengenalan sebuah objek sangat dipengaruhi oleh cahaya.
-Intensitas cahaya yang rendah dapat menyebabkan rendahnya akurasi pengenalan gestur tangan yang berdampak pada performa sebuah sistem terutama saat sistem diterapkan pada kondisi minim cahaya.
+Berdasarkan rumusan masalah yang telah dijelaskan sebelumnya, maka rumusan masalah pada penelitian ini adalah nilai akurasi dari deteksi wajah dengan intensitas cahaya 150 lux hanya mampu 42,39\%, sehingga deteksi dan pengenalan sebuah objek sangat dipengaruhi oleh cahaya. Intensitas cahaya yang semakin rendah menyebabkan penurunan akurasi suatu deteksi dan pengenalan. Hal tersebut dapat berdampak pada performa sebuah sistem yang semakin menurun. 
 \section{Batasan Masalah}
-
 Penelitian ini memiliki batasan masalah yang bertujuan untuk tidak memperluas pokok bahasan. Batasan masalah yang digunakan dalam penelitian ini adalah sebagai berkut:
 \begin{enumerate}
 \item Acuan dataset menggunakan \emph{American Sign Language}, dengan sepuluh klasifikasi yaitu angka 0 hingga angka 9.
@@ -41,11 +41,11 @@ Penelitian ini memiliki batasan masalah yang bertujuan untuk tidak memperluas po
 \end{enumerate}
 \section{Tujuan Penelitian}
 Penelitian yang dilakukan bertujuan untuk mengatasi permasalahan sistem yang bergantung pada pencahayaan dengan mengimplementasikan algoritme \emph{Retinex} pada sebuah sistem deteksi dan pengenalan gestur tangan, dengan tingkat intensitas cahaya yang bervariasi.
-
 \section{Manfaat Penelitian}
 Penelitian ini diharapkan dapat memberi manfaat berupa:
 \begin{enumerate}
 \item Memberikan fitur tambahan untuk sistem yang memiliki permasalahan dengan pencahayaan dalam intensitas cahaya rendah.
-\item Meningkatkan akurasi pengenalan gestur tangan pada kondisi cahaya berintensitas rendah.
+\item Meningkatkan akurasi pengenalan gestur tangan dan deteksi objek pada kondisi cahaya berintensitas rendah.
 \end{enumerate}
+
 

@@ -1,5 +1,4 @@
 %Created by Ari Dwi Hartanto, Alumni S1 Math Universitas Gadjah Mada, Yogyakarta, Indonesia
-%Edited by Marvina Pamularsih, S2 Ilmu Komputer UGM, Yogyakarta, Indonesia
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{tesisilkomugm}[2013/06/07 v2.0 The Universitas Gadjah Mada Mathematics Thesis Class]
 
@@ -72,8 +71,8 @@
 %[leftmargin]
 [display]
 {\center\large\bfseries}
-{\large\MakeUppercase{\chaptertitlename} \thechapter}{1ex}{\large}
-\titlespacing{\chapter}{0cm}{-1.2cm}{2cm}
+{\large\MakeUppercase{\chaptertitlename} \thechapter}{-1ex}{\large}
+\titlespacing{\chapter}{0cm}{-1.2cm}{0cm}
 
 \titleformat{\section}
 [hang]
@@ -144,7 +143,7 @@
 \def\listfigurename{DAFTAR GAMBAR}%
 \def\listtablename{DAFTAR TABEL}%
 \def\listappendixname{DAFTAR LAMPIRAN}%
-\def\nomenclaturename{DAFTAR LAMBANG}%
+%\def\nomenclaturename{DAFTAR LAMBANG}%
 \def\abstractname{INTISARI}%
 \def\partname{BAGIAN}%
 \def\chaptername{BAB}%
@@ -203,8 +202,8 @@
 \gdef\@city{Yogyakarta}
 \newcommand{\titleind}[1]{\gdef\@titleind{#1}}
 \newcommand{\@titleind}{}
-\newcommand{\titleeng}[1]{\gdef\@titleeng{#1}}
-\newcommand{\@titleeng}{}
+%\newcommand{\titleeng}[1]{\gdef\@titleeng{#1}}
+%\newcommand{\@titleeng}{}
 \newcommand{\fullname}[1]{\gdef\@fullname{#1}}
 \newcommand{\@fullname}{}
 \newcommand{\NIM}[1]{\gdef\@NIM{#1}}
@@ -243,7 +242,7 @@
       \vspace{1.5cm}	
       \MakeUppercase{\normalfont\bfseries\@titleind}\par\nobreak
       \vspace{0.7cm}
-      {\bfseries}\MakeUppercase{\normalfont\slshape\bfseries\@titleeng}{\bfseries}\par\nobreak
+      %{\bfseries( }\MakeUppercase{\normalfont\slshape\bfseries\@titleeng} {\bfseries )}\par\nobreak
        \vfill
        \includegraphics[width=5.5cm]{logougm}
        \vfill
@@ -277,7 +276,7 @@
       \vspace{1.5cm}	
       \MakeUppercase{\normalfont\bfseries\@titleind}\par\nobreak
       \vspace{0.7cm}
-      {\bfseries}\MakeUppercase{\normalfont\slshape\bfseries\@titleeng} {\bfseries}\par\nobreak
+      {\bfseries( }\MakeUppercase{\normalfont\slshape\bfseries\@titleeng} {\bfseries )}\par\nobreak
       \vspace{1.5cm}
         {\normalfont Diajukan untuk memenuhi salah satu syarat memperoleh derajat\\
           \@program}\\
@@ -353,8 +352,8 @@ Pembimbing Utama&Ketua Tim Penguji
 \def\approvalpagescan{%
   \newpage\thispagestyle{empty}%
   \phantomsection
-\addcontentsline{toc}{chapter}{HALAMAN PERNYATAAN}
-\includepdf[fitpaper]{pengesahanskripsi}
+\addcontentsline{toc}{chapter}{HALAMAN PENGESAHAN USULAN PENELITIAN S2}
+\includepdf[fitpaper]{pengesahan}
 }
 
 %------------------------------------------------------------
@@ -455,7 +454,8 @@ dalam naskah ini dan disebutkan dalam daftar pustaka.
   \vskip 12\p@
   \addcontentsline{toc}{chapter}{\abstractname}
 }
-\def\endabstractind{\par\vfil\null\end{singlespace}
+\def\endabstractind{\par\vfil\null\end{singlespace}%
+\clearpage\pagenumbering{arabic}\setcounter{page}{1}}
 
 %------------------------------------------------------------
 %Redefine Abstract in English
@@ -482,6 +482,6 @@ dalam naskah ini dan disebutkan dalam daftar pustaka.
 %  \addcontentsline{toc}{chapter}{\abstractname}
 %  }
 %\def\endabstracteng{\par\vfil\null\end{singlespace}%
-\clearpage\pagenumbering{arabic}\setcounter{page}{1}}
+%\clearpage\pagenumbering{arabic}\setcounter{page}{1}}
 
 \endinput

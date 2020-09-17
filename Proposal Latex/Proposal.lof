@@ -2,28 +2,28 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Koordinat Citra Digital (Sarifudin.,2015)\relax }}{9}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Citra RGB\relax }}{10}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Ruang warna HSV (Kolkur et al., 2017)\relax }}{11}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces American Sign Language (Barczak et al., 2011)\relax }}{13}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Convolutional standard dan depthwise separable (Howard et al., 2017)\relax }}{17}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Struktur Dasar Pada \emph {MobileNetV2} (Google AI Blog., 2018)\relax }}{18}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Ilustrasi Citra 28x28 Piksel (Nielsen., 2015)\relax }}{19}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Ilustrasi \emph {local receptive fields} (Nielsen., 2015)\relax }}{20}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Ilustrasi Pergesaran \emph {local receptive fields} (Nielsen., 2015)\relax }}{20}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Ilustrasi Pergeseran dengan Stride = 1 (Nielsen., 2015)\relax }}{21}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Confusion Matrix (Leonard., 2017)\relax }}{23}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Ilustrasi IoU(Hui., 2018)\relax }}{24}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Metrik Evaluasi COCO (Chen et al., 2015)\relax }}{25}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Koordinat Citra Digital (Sarifudin.,2015)\relax }}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Citra RGB\relax }}{11}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ruang warna HSV (Kolkur et al., 2017)\relax }}{12}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces American Sign Language (Barczak et al., 2011)\relax }}{14}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Convolutional standard dan depthwise separable (Howard et al., 2017)\relax }}{18}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Struktur Dasar Pada \emph {MobileNetV2} (Google AI Blog., 2018)\relax }}{19}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Ilustrasi Citra 28x28 Piksel (Nielsen., 2015)\relax }}{20}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Ilustrasi \emph {local receptive fields} (Nielsen., 2015)\relax }}{21}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Ilustrasi Pergesaran \emph {local receptive fields} (Nielsen., 2015)\relax }}{21}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Ilustrasi Pergeseran dengan Stride = 1 (Nielsen., 2015)\relax }}{22}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Confusion Matrix (Leonard., 2017)\relax }}{24}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Ilustrasi IoU(Hui., 2018)\relax }}{25}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Metrik Evaluasi COCO (Chen et al., 2015)\relax }}{26}{figure.caption.24}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Alur Kegiatan Penelitian\relax }}{27}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Rancangan Sistem\relax }}{28}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Ilustrasi Perbaikan Kontras Menggunakan Retinex (a) Citra Asli; (b) Citra Hasil Perbaikan(Petro et al., 2014)\relax }}{32}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Skema Pengambilan Dataset (Barczak et al., 2011)\relax }}{34}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Transfer Learning Pelatihan Gestur\relax }}{35}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Arsitektur Mobilenet V2 (Sandler et al., 2018)\relax }}{36}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Ilustrasi Pengujian Deteksi Tangan\relax }}{38}{figure.caption.31}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Skema Kegiatan Pengujian Deteksi Tangan\relax }}{38}{figure.caption.32}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Skema Kegiatan Pengujian Pengenalan Gestur Tangan\relax }}{40}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Ilustrasi Pengujian Pengenalan Gestur Tangan\relax }}{40}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Alur Kegiatan Penelitian\relax }}{28}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Rancangan Sistem\relax }}{29}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ilustrasi Perbaikan Kontras Menggunakan Retinex (a) Citra Asli; (b) Citra Hasil Perbaikan(Petro et al., 2014)\relax }}{33}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Skema Pengambilan Dataset (Barczak et al., 2011)\relax }}{35}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Transfer Learning Pelatihan Gestur\relax }}{36}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Arsitektur Mobilenet V2 (Sandler et al., 2018)\relax }}{37}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Ilustrasi Pengujian Deteksi Tangan\relax }}{39}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Skema Kegiatan Pengujian Deteksi Tangan\relax }}{39}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Skema Kegiatan Pengujian Pengenalan Gestur Tangan\relax }}{41}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Ilustrasi Pengujian Pengenalan Gestur Tangan\relax }}{41}{figure.caption.35}%
 \addvspace {10\p@ }

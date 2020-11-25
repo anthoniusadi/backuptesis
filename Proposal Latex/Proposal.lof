@@ -27,3 +27,15 @@
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Skema Kegiatan Pengujian Pengenalan Gestur Tangan\relax }}{41}{figure.caption.34}%
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Ilustrasi Pengujian Pengenalan Gestur Tangan\relax }}{41}{figure.caption.35}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Source code akuisisi citra\relax }}{45}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Source Code Augmentasi Citra\relax }}{47}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Source Code Pembuatan file CSV\relax }}{48}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces hasil file csv\relax }}{48}{figure.caption.40}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Proses Pelabelan Citra\relax }}{49}{figure.caption.41}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces hasil anotasi citra\relax }}{49}{figure.caption.42}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Source Code Pengubahan XML ke CSV\relax }}{50}{figure.caption.43}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Source Code Pembentukan TFRecord\relax }}{51}{figure.caption.44}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Source Code Pelatihan \textit {Object Detection}\relax }}{53}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Source Code Pelatihan \textit {Pengenalan Gestur}\relax }}{54}{figure.caption.46}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }

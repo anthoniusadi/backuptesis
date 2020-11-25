@@ -54,5 +54,26 @@
 \BOOKMARK [2][-]{subsection.4.4.4}{Pengujian Deteksi Tangan Menggunakan Retinex}{section.4.4}% 54
 \BOOKMARK [2][-]{subsection.4.4.5}{Pengujian Pengenalan Gestur Tangan Menggunakan Retinex}{section.4.4}% 55
 \BOOKMARK [2][-]{subsection.4.4.6}{Pengujian Sistem Keseluruhan}{section.4.4}% 56
-\BOOKMARK [0][-]{chapter.5}{JADWAL PENELITIAN}{}% 57
-\BOOKMARK [0][-]{chapter*.38}{DAFTAR PUSTAKA}{}% 58
+\BOOKMARK [0][-]{chapter.5}{IMPLEMENTASI}{}% 57
+\BOOKMARK [1][-]{section.5.1}{Data Collection}{chapter.5}% 58
+\BOOKMARK [2][-]{subsection.5.1.1}{Implementasi Proses Akuisisi Citra}{section.5.1}% 59
+\BOOKMARK [2][-]{subsection.5.1.2}{Implementasi Data Augmentasi}{section.5.1}% 60
+\BOOKMARK [2][-]{subsection.5.1.3}{Pembuatan file CSV}{section.5.1}% 61
+\BOOKMARK [1][-]{section.5.2}{Implementasi Data Labelling}{chapter.5}% 62
+\BOOKMARK [1][-]{section.5.3}{Implementasi Pembuatan TFRecord file}{chapter.5}% 63
+\BOOKMARK [1][-]{section.5.4}{Konfigurasi Pipeline Object Detection}{chapter.5}% 64
+\BOOKMARK [1][-]{section.5.5}{Implementasi Training}{chapter.5}% 65
+\BOOKMARK [2][-]{subsection.5.5.1}{Object Detection}{section.5.5}% 66
+\BOOKMARK [2][-]{subsection.5.5.2}{Pengenalan Gestur}{section.5.5}% 67
+\BOOKMARK [1][-]{section.5.6}{Implementasi Testing}{chapter.5}% 68
+\BOOKMARK [0][-]{chapter.6}{HASIL DAN PEMBAHASAN}{}% 69
+\BOOKMARK [1][-]{section.6.1}{Evaluasi Deteksi Tangan}{chapter.6}% 70
+\BOOKMARK [1][-]{section.6.2}{Evaluasi Pengenalan Gestur Tangan}{chapter.6}% 71
+\BOOKMARK [1][-]{section.6.3}{Pengujian SNR}{chapter.6}% 72
+\BOOKMARK [1][-]{section.6.4}{Pengujian Deteksi Tangan Menggunakan Retinex}{chapter.6}% 73
+\BOOKMARK [1][-]{section.6.5}{Pengujian Pengenalan Gestur Tangan Menggunakan Retinex}{chapter.6}% 74
+\BOOKMARK [1][-]{section.6.6}{Pengujian Sistem Keseluruhan}{chapter.6}% 75
+\BOOKMARK [0][-]{chapter.7}{KESIMPULAN DAN SARAN}{}% 76
+\BOOKMARK [1][-]{section.7.1}{Kesimpulan}{chapter.7}% 77
+\BOOKMARK [1][-]{section.7.2}{Saran}{chapter.7}% 78
+\BOOKMARK [0][-]{chapter*.47}{DAFTAR PUSTAKA}{}% 79

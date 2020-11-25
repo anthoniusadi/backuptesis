@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.2.26)  10 SEP 2020 21:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.2.26)  25 NOV 2020 23:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -758,6 +758,11 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip68
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks47
+\inpenc@posthook=\toks48
+)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count313
@@ -770,24 +775,24 @@ LaTeX Warning: Label `labelku' multiply defined.
 )
 \openout1 = `Proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
-0.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+1.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -798,16 +803,24 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \scratchbox=\box70
 \nofMPsegments=\count315
 \nofMParguments=\count316
-\everyMPshowfont=\toks47
+\everyMPshowfont=\toks49
 \MPscratchCnt=\count317
 \MPscratchDim=\dimen281
 \MPnumerator=\count318
 \makeMPintoPDFobject=\count319
-\everyMPtoPDFconversion=\toks48
+\everyMPtoPDFconversion=\toks50
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -828,7 +841,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 ABD: EveryShipout initializing macros
-Package hyperref Info: Link coloring OFF on input line 20.
+Package hyperref Info: Link coloring OFF on input line 51.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -841,18 +854,18 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count321
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
+LaTeX Info: Redefining \ref on input line 51.
+LaTeX Info: Redefining \pageref on input line 51.
+LaTeX Info: Redefining \nameref on input line 51.
 
 (./Proposal.out) (./Proposal.out)
 \@outlinefile=\write4
 \openout4 = `Proposal.out'.
 
-<logougm.png, id=240, 110.5731pt x 112.2594pt>
+<logougm.png, id=324, 110.5731pt x 112.2594pt>
 File: logougm.png Graphic file (type png)
 <use logougm.png>
-Package pdftex.def Info: logougm.png  used on input line 21.
+Package pdftex.def Info: logougm.png  used on input line 52.
 (pdftex.def)             Requested size: 156.49014pt x 158.89041pt.
  [1
 
@@ -860,10 +873,10 @@ Package pdftex.def Info: logougm.png  used on input line 21.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./pengesahan.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<pengesahan.pdf, id=249, 597.55142pt x 845.07523pt>
+<pengesahan.pdf, id=333, 597.55142pt x 845.07523pt>
 File: pengesahan.pdf Graphic file (type pdf)
 <use pengesahan.pdf>
-Package pdftex.def Info: pengesahan.pdf  used on input line 27.
+Package pdftex.def Info: pengesahan.pdf  used on input line 58.
 (pdftex.def)             Requested size: 597.54996pt x 845.07317pt.
 
 
@@ -871,7 +884,7 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pengesahan.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
 File: pengesahan.pdf Graphic file (type pdf)
 <use pengesahan.pdf>
-Package pdftex.def Info: pengesahan.pdf  used on input line 27.
+Package pdftex.def Info: pengesahan.pdf  used on input line 58.
 (pdftex.def)             Requested size: 597.54996pt x 845.07317pt.
 
 
@@ -881,26 +894,26 @@ pdfTeX warning: /usr/bin/pdflatex (file ./pengesahan.pdf): PDF inclusion: found
 
 pdfTeX warning: /usr/bin/pdflatex (file ./pengesahan.pdf): PDF inclusion: found
  PDF version <1.6>, but at most version <1.5> allowed
-<pengesahan.pdf, id=252, page=1, 597.55142pt x 845.07523pt>
+<pengesahan.pdf, id=336, page=1, 597.55142pt x 845.07523pt>
 File: pengesahan.pdf Graphic file (type pdf)
 <use pengesahan.pdf, page 1>
-Package pdftex.def Info: pengesahan.pdf , page1 used on input line 27.
+Package pdftex.def Info: pengesahan.pdf , page1 used on input line 58.
 (pdftex.def)             Requested size: 597.54996pt x 845.07317pt.
 File: pengesahan.pdf Graphic file (type pdf)
 <use pengesahan.pdf, page 1>
-Package pdftex.def Info: pengesahan.pdf , page1 used on input line 27.
+Package pdftex.def Info: pengesahan.pdf , page1 used on input line 58.
 (pdftex.def)             Requested size: 597.59554pt x 845.13763pt.
 File: pengesahan.pdf Graphic file (type pdf)
 <use pengesahan.pdf, page 1>
-Package pdftex.def Info: pengesahan.pdf , page1 used on input line 27.
+Package pdftex.def Info: pengesahan.pdf , page1 used on input line 58.
 (pdftex.def)             Requested size: 597.59554pt x 845.13763pt.
 File: pengesahan.pdf Graphic file (type pdf)
 <use pengesahan.pdf, page 1>
-Package pdftex.def Info: pengesahan.pdf , page1 used on input line 27.
+Package pdftex.def Info: pengesahan.pdf , page1 used on input line 58.
 (pdftex.def)             Requested size: 597.59554pt x 845.13763pt.
 File: pengesahan.pdf Graphic file (type pdf)
 <use pengesahan.pdf, page 1>
-Package pdftex.def Info: pengesahan.pdf , page1 used on input line 27.
+Package pdftex.def Info: pengesahan.pdf , page1 used on input line 58.
 (pdftex.def)             Requested size: 597.59554pt x 845.13763pt.
 [2 <./pengesahan.pdf>] (./Proposal.toc
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 2.
@@ -920,30 +933,34 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [3
 
-])
+] [4]
+Overfull \hbox (1.19978pt too wide) detected at line 77
+\OT1/ptm/b/n/12 VII 
+ []
+
+)
 \tf@toc=\write5
 \openout5 = `Proposal.toc'.
 
- [4]
-(./Proposal.lot)
+ [5] (./Proposal.lot)
 \tf@lot=\write6
 \openout6 = `Proposal.lot'.
 
- [5
+ [6
 
 ] (./Proposal.lof)
 \tf@lof=\write7
 \openout7 = `Proposal.lof'.
 
- [6
+ [7
 
 ]
-Overfull \hbox (4.63521pt too wide) in paragraph at lines 96--97
+Overfull \hbox (4.63521pt too wide) in paragraph at lines 127--128
 []\OT1/ptm/m/n/12 Kamera di-gu-nak-an se-ba-gai alat yang meng-i-mi-ta-si ma-ta
  ma-nu-sia da-lam meng-
  []
 
-[7
+[8
 
 
 ] (./Bab1.tex
@@ -1338,7 +1355,7 @@ Overfull \hbox (17.32083pt too wide) in paragraph at lines 46--65
 
 ) (./Bab3.tex [8] [9]
 BAB III.
-<screenshot001.png, id=466, 271.0125pt x 249.80283pt>
+<screenshot001.png, id=594, 271.0125pt x 249.80283pt>
 File: screenshot001.png Graphic file (type png)
 <use screenshot001.png>
 Package pdftex.def Info: screenshot001.png  used on input line 10.
@@ -1346,18 +1363,18 @@ Package pdftex.def Info: screenshot001.png  used on input line 10.
 [10
 
  <./screenshot001.png (PNG copy)>]
-<29.jpg, id=472, 64.24pt x 64.24pt>
+<29.jpg, id=600, 64.24pt x 64.24pt>
 File: 29.jpg Graphic file (type jpg)
 <use 29.jpg>
 Package pdftex.def Info: 29.jpg  used on input line 29.
 (pdftex.def)             Requested size: 139.42093pt x 139.43266pt.
-<hsv.png, id=473, 745.78625pt x 546.04pt>
+<hsv.png, id=601, 745.78625pt x 546.04pt>
 File: hsv.png Graphic file (type png)
 <use hsv.png>
 Package pdftex.def Info: hsv.png  used on input line 42.
 (pdftex.def)             Requested size: 179.25113pt x 131.23558pt.
  [11 <./29.jpg>] [12 <./hsv.png>] [13]
-<asl.jpg, id=504, 1488.56125pt x 726.715pt>
+<asl.jpg, id=632, 1488.56125pt x 726.715pt>
 File: asl.jpg Graphic file (type jpg)
 <use asl.jpg>
 Package pdftex.def Info: asl.jpg  used on input line 104.
@@ -1384,13 +1401,13 @@ LaTeX Font Warning: Font shape `U/lasy/m/n' in size <8.43146> not available
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6.02249> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 112.
 [14 <./asl.jpg>] [15] [16] [17]
-<new.jpg, id=539, 675.52374pt x 858.20625pt>
+<new.jpg, id=668, 675.52374pt x 858.20625pt>
 File: new.jpg Graphic file (type jpg)
 <use new.jpg>
 Package pdftex.def Info: new.jpg  used on input line 201.
 (pdftex.def)             Requested size: 199.16928pt x 253.0246pt.
  [18 <./new.jpg>]
-<arsitektur.png, id=547, 509.905pt x 434.62375pt>
+<arsitektur.png, id=675, 509.905pt x 434.62375pt>
 File: arsitektur.png Graphic file (type png)
 <use arsitektur.png>
 Package pdftex.def Info: arsitektur.png  used on input line 229.
@@ -1402,23 +1419,23 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<neuraon.png, id=553, 236.885pt x 258.9675pt>
+<neuraon.png, id=681, 236.885pt x 258.9675pt>
 File: neuraon.png Graphic file (type png)
 <use neuraon.png>
 Package pdftex.def Info: neuraon.png  used on input line 247.
 (pdftex.def)             Requested size: 99.58464pt x 108.86833pt.
-<hidenneuron.png, id=554, 320.19624pt x 220.825pt>
+<hidenneuron.png, id=682, 320.19624pt x 220.825pt>
 File: hidenneuron.png Graphic file (type png)
 <use hidenneuron.png>
 Package pdftex.def Info: hidenneuron.png  used on input line 261.
 (pdftex.def)             Requested size: 199.16928pt x 137.35822pt.
  [20 <./neuraon.png>]
-<neuron2.png, id=560, 503.8825pt x 258.9675pt>
+<neuron2.png, id=688, 503.8825pt x 258.9675pt>
 File: neuron2.png Graphic file (type png)
 <use neuron2.png>
 Package pdftex.def Info: neuron2.png  used on input line 282.
 (pdftex.def)             Requested size: 258.91763pt x 133.06744pt.
-<neuron3.png, id=561, 503.8825pt x 258.9675pt>
+<neuron3.png, id=689, 503.8825pt x 258.9675pt>
 File: neuron3.png Graphic file (type png)
 <use neuron3.png>
 Package pdftex.def Info: neuron3.png  used on input line 293.
@@ -1427,19 +1444,19 @@ Package pdftex.def Info: neuron3.png  used on input line 293.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [21 <./hidenneuron.png> <./neuron2.png>] [22 <./neuron3.png>] [23]
-<confusion.png, id=580, 505.89pt x 324.21124pt>
+<confusion.png, id=709, 505.89pt x 324.21124pt>
 File: confusion.png Graphic file (type png)
 <use confusion.png>
 Package pdftex.def Info: confusion.png  used on input line 367.
 (pdftex.def)             Requested size: 278.83578pt x 178.7026pt.
  [24 <./confusion.png>]
-<iou.png, id=591, 769.87625pt x 525.965pt>
+<iou.png, id=718, 769.87625pt x 525.965pt>
 File: iou.png Graphic file (type png)
 <use iou.png>
 Package pdftex.def Info: iou.png  used on input line 383.
 (pdftex.def)             Requested size: 278.83578pt x 190.50293pt.
  [25 <./iou.png>]
-<mtrik.png, id=598, 1140.26pt x 452.69125pt>
+<mtrik.png, id=725, 1140.26pt x 452.69125pt>
 File: mtrik.png Graphic file (type png)
 <use mtrik.png>
 Package pdftex.def Info: mtrik.png  used on input line 410.
@@ -1455,12 +1472,12 @@ ng di-gu-nak-an un-tuk mem-
 [27
 
 ]
-<Rencana.png, id=617, 121.45375pt x 342.27875pt>
+<Rencana.png, id=745, 121.45375pt x 342.27875pt>
 File: Rencana.png Graphic file (type png)
 <use Rencana.png>
 Package pdftex.def Info: Rencana.png  used on input line 26.
 (pdftex.def)             Requested size: 79.66649pt x 224.51018pt.
-<rancanganedit.png, id=618, 864.22874pt x 484.81125pt>
+<rancanganedit.png, id=746, 864.22874pt x 484.81125pt>
 File: rancanganedit.png Graphic file (type png)
 <use rancanganedit.png>
 Package pdftex.def Info: rancanganedit.png  used on input line 35.
@@ -1494,24 +1511,24 @@ $\OML/cmm/m/it/12 O[] \OT1/cmr/m/n/12 =$\OT1/ptm/m/n/12.045 (0*0,110740)+(0*0,1
  []
 
 [31] [32]
-<ret1.png, id=643, 564.1075pt x 367.3725pt>
+<ret1.png, id=771, 564.1075pt x 367.3725pt>
 File: ret1.png Graphic file (type png)
 <use ret1.png>
 Package pdftex.def Info: ret1.png  used on input line 236.
 (pdftex.def)             Requested size: 159.333pt x 103.7661pt.
-<ret2.png, id=644, 561.09625pt x 362.35374pt>
+<ret2.png, id=772, 561.09625pt x 362.35374pt>
 File: ret2.png Graphic file (type png)
 <use ret2.png>
 Package pdftex.def Info: ret2.png  used on input line 237.
 (pdftex.def)             Requested size: 159.333pt x 102.8959pt.
  [33 <./ret1.png> <./ret2.png>]
-<setup.png, id=651, 734.745pt x 636.3775pt>
+<setup.png, id=779, 734.745pt x 636.3775pt>
 File: setup.png Graphic file (type png)
 <use setup.png>
 Package pdftex.def Info: setup.png  used on input line 262.
 (pdftex.def)             Requested size: 318.67207pt x 276.01602pt.
  [34] [35 <./setup.png>]
-<transfer.png, id=661, 423.5825pt x 201.75375pt>
+<transfer.png, id=790, 423.5825pt x 201.75375pt>
 File: transfer.png Graphic file (type png)
 <use transfer.png>
 Package pdftex.def Info: transfer.png  used on input line 277.
@@ -1522,18 +1539,18 @@ Overfull \hbox (2.05133pt too wide) in paragraph at lines 272--280
  ter-di-ri 3 chan-nel RGB,
  []
 
-<v2.png, id=662, 663.47874pt x 501.875pt>
+<v2.png, id=791, 663.47874pt x 501.875pt>
 File: v2.png Graphic file (type png)
 <use v2.png>
 Package pdftex.def Info: v2.png  used on input line 289.
 (pdftex.def)             Requested size: 278.83578pt x 210.91624pt.
 [36 <./transfer.png>] [37 <./v2.png>]
-<deteksihand.png, id=674, 316.18124pt x 256.96pt>
+<deteksihand.png, id=802, 316.18124pt x 256.96pt>
 File: deteksihand.png Graphic file (type png)
 <use deteksihand.png>
 Package pdftex.def Info: deteksihand.png  used on input line 310.
 (pdftex.def)             Requested size: 286.80426pt x 233.10075pt.
-<skema pengujian deteksi tangan.png, id=675, 309.155pt x 623.32875pt>
+<skema pengujian deteksi tangan.png, id=803, 309.155pt x 623.32875pt>
 File: skema pengujian deteksi tangan.png Graphic file (type png)
 <use skema pengujian deteksi tangan.png>
 Package pdftex.def Info: skema pengujian deteksi tangan.png  used on input line
@@ -1545,14 +1562,14 @@ Overfull \hbox (56.8487pt too wide) in paragraph at lines 326--337
  []
 
 [39 <./deteksihand.png> <./skema pengujian deteksi tangan.png>]
-<skema pengujian pengenalan tangan.png, id=686, 309.155pt x 623.32875pt>
+<skema pengujian pengenalan tangan.png, id=814, 309.155pt x 623.32875pt>
 File: skema pengujian pengenalan tangan.png Graphic file (type png)
 <use skema pengujian pengenalan tangan.png>
 Package pdftex.def Info: skema pengujian pengenalan tangan.png  used on input l
 ine 345.
 (pdftex.def)             Requested size: 159.333pt x 321.26042pt.
  [40]
-<recoghand.png, id=691, 117.43875pt x 89.33376pt>
+<recoghand.png, id=819, 117.43875pt x 89.33376pt>
 File: recoghand.png Graphic file (type png)
 <use recoghand.png>
 Package pdftex.def Info: recoghand.png  used on input line 353.
@@ -1575,82 +1592,95 @@ Overfull \hbox (37.18906pt too wide) in paragraph at lines 363--408
 [41 <./skema pengujian pengenalan tangan.png> <./recoghand.png>] [42])
 (./Bab5.tex [43]
 BAB V.
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/09/10 1.8c listings language file
+)
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 1
+2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-[]\OT1/ptm/m/n/12.045 Menyelesaikan ri-vi-ew
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+(./collect-data-object-detection.py) [44
+
+] (./augmen.py) [45] [46]
+Overfull \vbox (87.87253pt too high) has occurred while \output is active []
+
+
+[47] (./csv.py)
+<csv.png, id=910, 685.56125pt x 230.8625pt>
+File: csv.png Graphic file (type png)
+<use csv.png>
+Package pdftex.def Info: csv.png  used on input line 34.
+(pdftex.def)             Requested size: 278.83578pt x 93.90038pt.
+<viany.png, id=911, 1924.18875pt x 1084.05pt>
+File: viany.png Graphic file (type png)
+<use viany.png>
+Package pdftex.def Info: viany.png  used on input line 43.
+(pdftex.def)             Requested size: 318.67207pt x 179.52219pt.
+ [48 <./csv.png>]
+<anotasi.png, id=934, 962.59625pt x 475.7775pt>
+File: anotasi.png Graphic file (type png)
+<use anotasi.png>
+Package pdftex.def Info: anotasi.png  used on input line 51.
+(pdftex.def)             Requested size: 318.67207pt x 157.50798pt.
+ (./xml.py) [49 <./viany.png> <./anotasi.png>]
+(./tfrecord.py) [50]
+Overfull \vbox (609.87253pt too high) has occurred while \output is active []
+
+
+[51]
+Overfull \hbox (26.25781pt too wide) in paragraph at lines 68--69
+\OT1/ptm/m/n/12.045 si pi-pe-li-ne, be-be-ra-pa kon-fi-gu-ra-si ter-se-but di-a
+n-ta-ra-nya mo-del, tra-i-ning[]config, eval[]config,
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-\OT1/ptm/m/n/12.045 li-te-ra-tu-re ter-ka-it de-
- []
+(./training.py) [52]
+Overfull \vbox (87.87253pt too high) has occurred while \output is active []
 
 
-Underfull \hbox (badness 5217) in paragraph at lines 10--10
-\OT1/ptm/m/n/12.045 ngan pe-ne-li-ti-an yang
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
-[]\OT1/ptm/m/n/12.045 Melakukan uji co-ba
- []
-
-
-Underfull \hbox (badness 3735) in paragraph at lines 14--14
-\OT1/ptm/m/n/12.045 sis-tem un-tuk tra-i-ning
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-[]\OT1/ptm/m/n/12.045 Agustus { Ok-to-ber
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-[]\OT1/ptm/m/n/12.045 Maret { De-sem-ber
- []
-
-
-Overfull \hbox (5.32085pt too wide) in paragraph at lines 6--24
- [][] 
- []
-
-) [44
-
-] [45
+[53] (./load_pretrained.py)) (./Bab6.tex [54] [55]
+BAB VI.
+) (./Bab7.tex [56
 
 ]
-Underfull \hbox (badness 1655) in paragraph at lines 194--195
+BAB VII.
+) [57
+
+] [58
+
+]
+Underfull \hbox (badness 1655) in paragraph at lines 227--228
 []\OT1/ptm/m/n/12 Kemenkes, 2018, \OT1/ptm/m/it/12 In-do-ne-sia In-klu-si dan R
 a-mah Di-sa-bi-li-tas\OT1/ptm/m/n/12 [Daring], ter-se-dia di
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
 \OT1/ptm/m/it/12 https://www.kemkes.go.id/resources/download/pusdatin/infodatin
 /infodatin-
  []
 
 
-Underfull \hbox (badness 4940) in paragraph at lines 208--211
+Underfull \hbox (badness 4940) in paragraph at lines 241--244
 []\OT1/ptm/m/n/12 Leonard, L.C., 2017, \OT1/ptm/m/it/12 Web-Based Be-ha-vi-o-ra
 l Mo-de-ling for Con-ti-nu-o-us User
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--211
+Underfull \hbox (badness 10000) in paragraph at lines 241--244
 \OT1/ptm/m/it/12 Au-then-ti-ca-tion (CUA)\OT1/ptm/m/n/12 , 1 edi-si, El-se-vi-e
 r Inc., [Da-ring]. ter-se-dia di
  []
 
-[46] [47]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
+[59] [60]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 269.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
  (./Proposal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 269.
 Package rerunfilecheck Info: File `Proposal.out' has not changed.
-(rerunfilecheck)             Checksum: B7846B4EC516A94B7F71D2711F56E882;3885.
+(rerunfilecheck)             Checksum: ED914A9CEB435CA900475DC29474BB8E;5399.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1659,16 +1689,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 269.
  ) 
 Here is how much of TeX's memory you used:
- 22642 strings out of 481239
- 409378 string characters out of 5920377
- 685182 words of memory out of 5000000
- 37177 multiletter control sequences out of 15000+600000
- 562885 words of font info for 92 fonts, out of 8000000 for 9000
+ 23733 strings out of 481239
+ 422520 string characters out of 5920377
+ 1240646 words of memory out of 5000000
+ 37961 multiletter control sequences out of 15000+600000
+ 565201 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,18n,64p,968b,532s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,18n,64p,968b,1526s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dis
@@ -1680,14 +1710,14 @@ ts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
-i8a.pfb>
-Output written on Proposal.pdf (54 pages, 2621684 bytes).
+exlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
+mr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Proposal.pdf (68 pages, 3989630 bytes).
 PDF statistics:
- 853 PDF objects out of 1000 (max. 8388607)
- 718 compressed objects within 8 object streams
- 219 named destinations out of 1000 (max. 500000)
- 622 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1319 PDF objects out of 1440 (max. 8388607)
+ 1159 compressed objects within 12 object streams
+ 481 named destinations out of 1000 (max. 500000)
+ 805 words of extra memory for PDF output out of 10000 (max. 10000000)
 

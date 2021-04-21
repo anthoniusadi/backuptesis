@@ -1,6 +1,5 @@
     if interrupt & 0xFF == 27:
         break
-    #! save untuk setiap nama(folder) dengan tekan huruf
     if interrupt & 0xFF == ord('t'):
         cv2.imwrite(directory+'thomas/'+'thom'+str(count['tangan_thomas'])+'.jpg',img)
     if interrupt & 0xFF == ord('m'):

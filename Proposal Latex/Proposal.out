@@ -14,66 +14,73 @@
 \BOOKMARK [1][-]{section.3.1}{Computer Vision}{chapter.3}% 14
 \BOOKMARK [1][-]{section.3.2}{Citra Digital}{chapter.3}% 15
 \BOOKMARK [2][-]{subsection.3.2.1}{Citra RGB}{section.3.2}% 16
-\BOOKMARK [2][-]{subsection.3.2.2}{Citra HSV}{section.3.2}% 17
-\BOOKMARK [1][-]{section.3.3}{Operasi Morfologi}{chapter.3}% 18
-\BOOKMARK [2][-]{subsection.3.3.1}{Erosi}{section.3.3}% 19
-\BOOKMARK [2][-]{subsection.3.3.2}{Dilasi}{section.3.3}% 20
-\BOOKMARK [2][-]{subsection.3.3.3}{Opening}{section.3.3}% 21
-\BOOKMARK [2][-]{subsection.3.3.4}{Closing}{section.3.3}% 22
-\BOOKMARK [1][-]{section.3.4}{Hand Gesture Recognition}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.4.1}{American Sign Language\(ASL\)}{section.3.4}% 24
-\BOOKMARK [1][-]{section.3.5}{Retinex\(Single Scale Retinex\)}{chapter.3}% 25
-\BOOKMARK [2][-]{subsection.3.5.1}{Multiscale Retinex\(MSR\)}{section.3.5}% 26
-\BOOKMARK [2][-]{subsection.3.5.2}{Multiscale Retinex Color Restoration\(MSRCR\)}{section.3.5}% 27
-\BOOKMARK [1][-]{section.3.6}{MobileNet}{chapter.3}% 28
-\BOOKMARK [2][-]{subsection.3.6.1}{Depthwise Separable Convolution}{section.3.6}% 29
-\BOOKMARK [1][-]{section.3.7}{MobileNetV2}{chapter.3}% 30
-\BOOKMARK [1][-]{section.3.8}{Convolutional Neural Network\(CNN\)}{chapter.3}% 31
-\BOOKMARK [2][-]{subsection.3.8.1}{Local Receptive Fields}{section.3.8}% 32
-\BOOKMARK [2][-]{subsection.3.8.2}{Shared Weight}{section.3.8}% 33
-\BOOKMARK [2][-]{subsection.3.8.3}{Konvolusi}{section.3.8}% 34
-\BOOKMARK [2][-]{subsection.3.8.4}{Fungsi Aktivasi}{section.3.8}% 35
-\BOOKMARK [1][-]{section.3.9}{Evaluasi}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.9.1}{Confussion Matrix}{section.3.9}% 37
-\BOOKMARK [2][-]{subsection.3.9.2}{Average Precicion\(AP\)}{section.3.9}% 38
-\BOOKMARK [0][-]{chapter.4}{METODOLOGI PENELITIAN}{}% 39
-\BOOKMARK [1][-]{section.4.1}{Alat dan Bahan}{chapter.4}% 40
-\BOOKMARK [2][-]{subsection.4.1.1}{Alat}{section.4.1}% 41
-\BOOKMARK [2][-]{subsection.4.1.2}{Bahan}{section.4.1}% 42
-\BOOKMARK [1][-]{section.4.2}{Prosedur Kerja}{chapter.4}% 43
-\BOOKMARK [2][-]{subsection.4.2.1}{Analisis dan Perancangan Sistem}{section.4.2}% 44
-\BOOKMARK [2][-]{subsection.4.2.2}{Pra-proses}{section.4.2}% 45
-\BOOKMARK [2][-]{subsection.4.2.3}{Pengumpulan Data}{section.4.2}% 46
-\BOOKMARK [1][-]{section.4.3}{Proses Pelatihan}{chapter.4}% 47
-\BOOKMARK [2][-]{subsection.4.3.1}{Pelatihan Gesture Recognition}{section.4.3}% 48
-\BOOKMARK [2][-]{subsection.4.3.2}{Pelatihan Object Detection}{section.4.3}% 49
-\BOOKMARK [1][-]{section.4.4}{Pengujian dan Evaluasi}{chapter.4}% 50
-\BOOKMARK [2][-]{subsection.4.4.1}{Evaluasi Deteksi Tangan}{section.4.4}% 51
-\BOOKMARK [2][-]{subsection.4.4.2}{Evaluasi Pengenalan Gestur Tangan}{section.4.4}% 52
-\BOOKMARK [2][-]{subsection.4.4.3}{Pengujian SNR}{section.4.4}% 53
-\BOOKMARK [2][-]{subsection.4.4.4}{Pengujian Deteksi Tangan Menggunakan Retinex}{section.4.4}% 54
-\BOOKMARK [2][-]{subsection.4.4.5}{Pengujian Pengenalan Gestur Tangan Menggunakan Retinex}{section.4.4}% 55
-\BOOKMARK [2][-]{subsection.4.4.6}{Pengujian Sistem Keseluruhan}{section.4.4}% 56
-\BOOKMARK [0][-]{chapter.5}{IMPLEMENTASI}{}% 57
-\BOOKMARK [1][-]{section.5.1}{Data Collection}{chapter.5}% 58
-\BOOKMARK [2][-]{subsection.5.1.1}{Implementasi Proses Akuisisi Citra}{section.5.1}% 59
-\BOOKMARK [2][-]{subsection.5.1.2}{Implementasi Data Augmentasi}{section.5.1}% 60
-\BOOKMARK [2][-]{subsection.5.1.3}{Pembuatan file CSV}{section.5.1}% 61
-\BOOKMARK [1][-]{section.5.2}{Implementasi Data Labelling}{chapter.5}% 62
-\BOOKMARK [1][-]{section.5.3}{Implementasi Pembuatan TFRecord file}{chapter.5}% 63
-\BOOKMARK [1][-]{section.5.4}{Konfigurasi Pipeline Object Detection}{chapter.5}% 64
-\BOOKMARK [1][-]{section.5.5}{Implementasi Training}{chapter.5}% 65
-\BOOKMARK [2][-]{subsection.5.5.1}{Object Detection}{section.5.5}% 66
-\BOOKMARK [2][-]{subsection.5.5.2}{Pengenalan Gestur}{section.5.5}% 67
-\BOOKMARK [1][-]{section.5.6}{Implementasi Testing}{chapter.5}% 68
-\BOOKMARK [0][-]{chapter.6}{HASIL DAN PEMBAHASAN}{}% 69
-\BOOKMARK [1][-]{section.6.1}{Evaluasi Deteksi Tangan}{chapter.6}% 70
-\BOOKMARK [1][-]{section.6.2}{Evaluasi Pengenalan Gestur Tangan}{chapter.6}% 71
-\BOOKMARK [1][-]{section.6.3}{Pengujian SNR}{chapter.6}% 72
-\BOOKMARK [1][-]{section.6.4}{Pengujian Deteksi Tangan Menggunakan Retinex}{chapter.6}% 73
-\BOOKMARK [1][-]{section.6.5}{Pengujian Pengenalan Gestur Tangan Menggunakan Retinex}{chapter.6}% 74
-\BOOKMARK [1][-]{section.6.6}{Pengujian Sistem Keseluruhan}{chapter.6}% 75
-\BOOKMARK [0][-]{chapter.7}{KESIMPULAN DAN SARAN}{}% 76
-\BOOKMARK [1][-]{section.7.1}{Kesimpulan}{chapter.7}% 77
-\BOOKMARK [1][-]{section.7.2}{Saran}{chapter.7}% 78
-\BOOKMARK [0][-]{chapter*.47}{DAFTAR PUSTAKA}{}% 79
+\BOOKMARK [1][-]{section.3.3}{Operasi Morfologi}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.3.1}{Erosi}{section.3.3}% 18
+\BOOKMARK [2][-]{subsection.3.3.2}{Dilasi}{section.3.3}% 19
+\BOOKMARK [2][-]{subsection.3.3.3}{Opening}{section.3.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.4}{Closing}{section.3.3}% 21
+\BOOKMARK [1][-]{section.3.4}{Hand Gesture Recognition}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.4.1}{American Sign Language\(ASL\)}{section.3.4}% 23
+\BOOKMARK [1][-]{section.3.5}{Retinex\(Single Scale Retinex\)}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.5.1}{Multiscale Retinex\(MSR\)}{section.3.5}% 25
+\BOOKMARK [2][-]{subsection.3.5.2}{Multiscale Retinex Color Restoration\(MSRCR\)}{section.3.5}% 26
+\BOOKMARK [1][-]{section.3.6}{MobileNet}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.6.1}{Depthwise Separable Convolution}{section.3.6}% 28
+\BOOKMARK [1][-]{section.3.7}{MobileNetV2}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.8}{Convolutional Neural Network\(CNN\)}{chapter.3}% 30
+\BOOKMARK [2][-]{subsection.3.8.1}{Local Receptive Fields}{section.3.8}% 31
+\BOOKMARK [2][-]{subsection.3.8.2}{Shared Weight}{section.3.8}% 32
+\BOOKMARK [2][-]{subsection.3.8.3}{Konvolusi}{section.3.8}% 33
+\BOOKMARK [2][-]{subsection.3.8.4}{Fungsi Aktivasi}{section.3.8}% 34
+\BOOKMARK [1][-]{section.3.9}{Evaluasi}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.9.1}{Confussion Matrix}{section.3.9}% 36
+\BOOKMARK [2][-]{subsection.3.9.2}{Average Precicion\(AP\)}{section.3.9}% 37
+\BOOKMARK [0][-]{chapter.4}{METODOLOGI PENELITIAN}{}% 38
+\BOOKMARK [1][-]{section.4.1}{Alat dan Bahan}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.1.1}{Alat}{section.4.1}% 40
+\BOOKMARK [2][-]{subsection.4.1.2}{Bahan}{section.4.1}% 41
+\BOOKMARK [1][-]{section.4.2}{Prosedur Kerja}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.2.1}{Analisis dan Perancangan Sistem}{section.4.2}% 43
+\BOOKMARK [2][-]{subsection.4.2.2}{Pra-proses}{section.4.2}% 44
+\BOOKMARK [2][-]{subsection.4.2.3}{Pengumpulan Data}{section.4.2}% 45
+\BOOKMARK [1][-]{section.4.3}{Proses Pelatihan}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.3.1}{Pelatihan Gesture Recognition}{section.4.3}% 47
+\BOOKMARK [2][-]{subsection.4.3.2}{Pelatihan Object Detection}{section.4.3}% 48
+\BOOKMARK [1][-]{section.4.4}{Pengujian dan Evaluasi}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.1}{Evaluasi Deteksi Tangan}{section.4.4}% 50
+\BOOKMARK [2][-]{subsection.4.4.2}{Evaluasi Pengenalan Gestur Tangan}{section.4.4}% 51
+\BOOKMARK [2][-]{subsection.4.4.3}{Pengujian PSNR}{section.4.4}% 52
+\BOOKMARK [2][-]{subsection.4.4.4}{Pengujian Deteksi Tangan Menggunakan Retinex}{section.4.4}% 53
+\BOOKMARK [2][-]{subsection.4.4.5}{Pengujian Pengenalan Gestur Tangan Menggunakan Retinex}{section.4.4}% 54
+\BOOKMARK [2][-]{subsection.4.4.6}{Pengujian Sistem Keseluruhan}{section.4.4}% 55
+\BOOKMARK [0][-]{chapter.5}{IMPLEMENTASI}{}% 56
+\BOOKMARK [1][-]{section.5.1}{Data Collection}{chapter.5}% 57
+\BOOKMARK [2][-]{subsection.5.1.1}{Implementasi Proses Akuisisi Citra}{section.5.1}% 58
+\BOOKMARK [2][-]{subsection.5.1.2}{Implementasi Data Augmentasi}{section.5.1}% 59
+\BOOKMARK [2][-]{subsection.5.1.3}{Pembuatan file CSV}{section.5.1}% 60
+\BOOKMARK [1][-]{section.5.2}{Implementasi Data Labelling}{chapter.5}% 61
+\BOOKMARK [1][-]{section.5.3}{Implementasi Pembuatan TFRecord file}{chapter.5}% 62
+\BOOKMARK [1][-]{section.5.4}{Konfigurasi Pipeline Object Detection}{chapter.5}% 63
+\BOOKMARK [1][-]{section.5.5}{Implementasi Training}{chapter.5}% 64
+\BOOKMARK [2][-]{subsection.5.5.1}{Object Detection}{section.5.5}% 65
+\BOOKMARK [2][-]{subsection.5.5.2}{Pengenalan Gestur}{section.5.5}% 66
+\BOOKMARK [1][-]{section.5.6}{Implementasi Retinex}{chapter.5}% 67
+\BOOKMARK [1][-]{section.5.7}{Evaluasi Model}{chapter.5}% 68
+\BOOKMARK [2][-]{subsection.5.7.1}{PSNR}{section.5.7}% 69
+\BOOKMARK [2][-]{subsection.5.7.2}{mAP}{section.5.7}% 70
+\BOOKMARK [2][-]{subsection.5.7.3}{Kfold Cross Validation}{section.5.7}% 71
+\BOOKMARK [1][-]{section.5.8}{Implementasi Pengujian}{chapter.5}% 72
+\BOOKMARK [2][-]{subsection.5.8.1}{Pengujian Pengenalan Gestur Tangan}{section.5.8}% 73
+\BOOKMARK [2][-]{subsection.5.8.2}{Pengujian Deteksi Objek}{section.5.8}% 74
+\BOOKMARK [2][-]{subsection.5.8.3}{Pengujian Sistem Secara Keseluruhan}{section.5.8}% 75
+\BOOKMARK [0][-]{chapter.6}{HASIL DAN PEMBAHASAN}{}% 76
+\BOOKMARK [1][-]{section.6.1}{Evaluasi Deteksi Tangan}{chapter.6}% 77
+\BOOKMARK [1][-]{section.6.2}{Evaluasi Pengenalan Gestur Tangan}{chapter.6}% 78
+\BOOKMARK [1][-]{section.6.3}{Pengujian SNR}{chapter.6}% 79
+\BOOKMARK [1][-]{section.6.4}{Pengujian Deteksi Tangan}{chapter.6}% 80
+\BOOKMARK [1][-]{section.6.5}{Pengujian Pengenalan Gestur Tangan}{chapter.6}% 81
+\BOOKMARK [1][-]{section.6.6}{Pengujian Sistem Keseluruhan}{chapter.6}% 82
+\BOOKMARK [0][-]{chapter.7}{KESIMPULAN DAN SARAN}{}% 83
+\BOOKMARK [1][-]{section.7.1}{Kesimpulan}{chapter.7}% 84
+\BOOKMARK [1][-]{section.7.2}{Saran}{chapter.7}% 85
+\BOOKMARK [0][-]{chapter*.88}{DAFTAR PUSTAKA}{}% 86

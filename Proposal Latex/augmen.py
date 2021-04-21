@@ -26,8 +26,5 @@ def dilation_image(image,shift,nama=name):
     kernel = np.ones((shift, shift), np.uint8)
     image = cv2.dilate(image,kernel,iterations = 1)
     cv2.imwrite(Folder_name + "/Dilation-" + "*" + str(shift)+nama+ Extension, image)
-def median_blur(image,shift,nama=name):
-    image=cv2.medianBlur(image,shift)
-    cv2.imwrite(Folder_name + "/MedianBLur-" + str(shift)+nama + Extension, image)
 
 

@@ -2,17 +2,15 @@
 %---------------------------------------------------------------------------
 %Kode untuk style code nya
 %---------------------------------------------------------------------------
-
 \usepackage[utf8]{inputenc}
-
+\usepackage{subfig}
 \usepackage{listings}
-\usepackage{xcolor}
-
+\usepackage{xcolor} 
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
-\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
-
+\definecolor{backcolour}{rgb}{0.97,0.97,0.97}
+%%
 \lstdefinestyle{mystyle}{
 	backgroundcolor=\color{backcolour},   
 	commentstyle=\color{codegreen},
@@ -21,16 +19,26 @@
 	stringstyle=\color{codepurple},
 	basicstyle=\ttfamily\footnotesize\linespread{0},
 	breakatwhitespace=false,         
-	breaklines=true,                 
-	captionpos=b,                    
+	breaklines=true,      
+%	frame=single,           
+	captionpos=b,         
+	language=python,
 	keepspaces=true,                 
 	numbers=left,                    
-	numbersep=5pt,                  
+	numbersep=5pt,
+	tabsize=2,                  
 	showspaces=false,                
 	showstringspaces=false,
 	showtabs=false
 }
 \lstset{style=mystyle}
+%%
+
+%\lstset{language=python, frame=single} 
+%\lstset{numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=5pt, basicstyle=\footnotesize} 
+%\lstset{frame=shadowbox, xleftmargin=6pt, xrightmargin=8pt, rulesepcolor=\color{black}}
+%\lstset{xleftmargin=6pt, xrightmargin=8pt} 
+%\lstset{keywordstyle=\color{blue},breaklines=true, breakindent=27pt} 
 %-----------------------------------------------------------------
 %Disini awal masukan untuk data Skripsi (ISI SESUAI DENGAN DATA ANDA!)
 %-----------------------------------------------------------------
@@ -208,9 +216,6 @@ Bandung, Informatika[BUKU].
 \bibitem[barczak(2011)]{bar}
 Barczak, A.L.C., Reyes, N.H., Abastillas, M., Piccio, A. \& Susnjak, T., 2011, \emph{A New 2D Static Hand Gesture Colour Image Dataset for ASL Gestures},Res. Lett. Inf. Math. Sci., 15, 12-20.\emph{http://iims.massey.ac.nz/research/letters/}.
 
-\bibitem[kolkur(2017)]{kol}
-Kolkur, S., Kalbande, D., Shimpi, P., Bapat, C. \& Jatakia, J., 2017, \emph{Human Skin Detection Using RGB , HSV and YCbCr Color Models}, , 137, 324-332.
-
 \bibitem[arabi(2019)]{arb}
 Arabi, S., Haghighat, A. \& Sharma, A., 2019, \emph{A deep learning based solution for construction equipment detection: from development to deployment} , , , April.
 
@@ -225,9 +230,6 @@ Posada-Gómez, Rubén \& Sanchez Medel, Luis \& Alor-Hernández, Giner \& Martin
 
 \bibitem[kemenkes(2015)]{kem}
 Kemenkes, 2018, \emph{Indonesia Inklusi  dan Ramah Disabilitas}[Daring], tersedia di \emph{https://www.kemkes.go.id/resources/download/pusdatin/infodatin/infodatin-disabilitas.pdf}.
-
-\bibitem[arfianto(2016)]{arf}
-Afrianto, T. \& Amalia, F., 2016, \emph{Pengaruh Komponen Krominan Pada Ruang Warna}, Prosiding Seminar Nasional Teknologi Terapan (SNTT), August 2017, 282-285.
 
 \bibitem[Howard(2017)]{how}
 Howard, A.G., Zhu, M., Chen, B., Kalenichenko, D., Wang, W., Weyand, T., Andreetto, M. \& Adam, H., 2017, \emph{MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications}, \emph{http://arxiv.org/abs/1704.04861}.
@@ -251,6 +253,8 @@ Petro., Ana-Belen \& Sbert., Catalina \& Morel., Jean-Michel., 2014. \emph{Multi
 X. He., T. Wang., Y. Jia., Y. Wang., Z. Xie and D. Xie., 2016, \emph{Studying fidelity issues in image enhancement by means of multi-scale retinex with color restoration}, 2016 3rd International Conference on Systems and Informatics (ICSAI), Shanghai, pp. 536-540, DOI: 10.1109/ICSAI.2016.7811013.
 \bibitem[Parihar(2018)]{Parihar}
 A. S. Parihar and K. Singh., \emph{A study on Retinex based method for image enhancement}, 2018, 2nd International Conference on Inventive Systems and Control (ICISC), Coimbatore, pp. 619-624, DOI: 10.1109/ICISC.2018.8398874.
+\bibitem[cvnote(2019)]{cvnote}
+CV NOTE., 2019, \emph{PSNR and SSIM Metric: Python Implementation }[Daring],tersedia di\emph{https://cvnote.ddlee.cc/2019/09/12/psnr-ssim-python}.
 \end{thebibliography}
 
 %-----------------------------------------------------------------

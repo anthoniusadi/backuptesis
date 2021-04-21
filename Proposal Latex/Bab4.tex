@@ -23,24 +23,37 @@ Alur penelitian yang akan dilakukan dalam penelitian ini memiliki beberapa tahap
 % TODO: \usepackage{graphicx} required
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.2\linewidth]{Rencana}
+	\includegraphics[width=0.18\linewidth]{Rencana}
 	\caption{Alur Kegiatan Penelitian}
 	\label{fig:screenshot006}
 \end{figure}
 Rancangan pengujian sistem ditunjukan pada Gambar 4.2 yang dimulai dengan \emph{input} dari webcam secara \emph{realtime}, sehingga setiap frame akan di proses pada tahap berikutnya.
-Setiap frame dengan citra RGB akan dilewatkan pada algoritme \emph{Retinex} untuk dilakukan perbaikan kualitas citra dengan harapan meningkatkan kontras pada sebuah citra.
+Setiap frame dengan citra RGB akan dilewatkan pada algoritme \emph{Retinex} untuk dilakukan perbaikan kualitas citra dengan harapan meningkatkan kontras pada sebuah citra.Citra yang mengalami peningkatan kontras kemudian sistem akan melakukan deteksi tangan dengan \emph{SSD MobileNet} yang kemudian citra tangan tersebut akan diambil sebagai ROI. 
+Hasil segmentasi akan diklasifikasikan dengan model CNN yang telah di training sebelumnya.
+Keluaran dari sistem ini akan menampilkan klasifikasi angka yang terdeteksi.
 % TODO: \usepackage{graphicx} required
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1.1\linewidth]{rancanganedit}
-	\caption{Rancangan Sistem}
+	\includegraphics[width=0.64\linewidth]{objectdtc}
+	\caption{Rancangan Sistem Deteksi Objek}
+	\label{fig:objectdtc}
+\end{figure}
+% TODO: \usepackage{graphicx} required
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.64\linewidth]{cnnn}
+	\caption{Rancangan Sistem Pengenalan Gestur}
+	\label{fig:cnnn}
+\end{figure}
+% TODO: \usepackage{graphicx} required
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{keseluruhan}
+	\caption{Rancangan Sistem Keseluruhan}
 	\label{fig:rancangan}
 \end{figure}
-\noindent Citra yang mengalami peningkatan kontras kemudian sistem akan melakukan deteksi tangan dengan \emph{SSD MobileNet} yang kemudian citra tangan tersebut akan diambil sebagai ROI. 
-Citra hasil ROI akan dilakukan segmentasi menggunakan \emph{skin detection}. Hasil segmentasi akan diklasifikasikan dengan model CNN yang telah di training sebelumnya.
-Keluaran dari sistem ini akan menampilkan klasifikasi angka yang terdeteksi.
 
-Penelitian yang digambarkan pada rencana sistem memiliki 3 bagian penting diantaranya \emph{Retinex}, \emph{SSD MobileNet} dan \emph{Convolutional Neural Network}.
+Penelitian ini memiliki 3 bagian yaitu deteksi objek yang di gambarkan pada gambar 4.2, pengaenalan gestur pada gambar 4.3 dan sistem keseluruhan pada gambar 4.4.
 Peranan Retinex pada penelitian ini merupakan solusi untuk mengatasi permasalahan intensitas cahaya, sehingga pada dataset yang dilatih tidak perlu menggunakan variasi intensitas yang rendah. Penggunaan SSD dengan arsitektur \emph{MobileNet} bertujuan untuk mempercepat waktu komputasi supaya tidak terlalu berat dengan harapan lebih cepat. \emph{Convolutional Neural Network} sendiri digunakan untuk melakukan ekstraksi fitur dari sebuah citra. Ekstraksi fitur ini sangat sering digunakan dalam pemrosesan sebuah citra untuk memperoleh informasi. 
 \subsection{Pra-proses}
 Tahap pra-proses pada penelitian ini terdapat pada proses \emph{enhancement} yang dilakukan oleh \emph{Retinex}. Citra dengan intensitas cahaya rendah akan dilakukan proses perbaikan dahulu sebelum dilakukan proses deteksi maupun pengenalan. \emph{Input} citra untuk proses \emph{Retinex} menggunakan 3 kanal(R,G,B).
@@ -229,13 +242,13 @@ $R_{(MSR)}=\left[
 
 \end{matrix}
 \right]$\\
-Gambar 4.3 menunjukan ilustrasi peningkatan kualitas citra dengan intensitas cahaya rendah dikenai algoritme \emph{retinex} sehingga menghassilkan citra dengan pengingkatan kontras.
+
+\noindent Gambar 4.3 menunjukan ilustrasi peningkatan kualitas citra dengan intensitas cahaya rendah dikenai algoritme \emph{Retinex} sehingga menghassilkan citra dengan pengingkatan kontras.
 % TODO: \usepackage{graphicx} required
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.4\linewidth]{ret1}
-	\includegraphics[width=0.4\linewidth]{ret2}\\
-	a \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ b
+	\subfloat[\centering]{{\includegraphics[width=5cm]{ret1} }}%
+	\subfloat[\centering]{{\includegraphics[width=5cm]{ret2} }}%
 	\caption{Ilustrasi Perbaikan Kontras Menggunakan Retinex (a) Citra Asli; (b) Citra Hasil Perbaikan(Petro et al., 2014)}
 	\label{fig:ret1}
 	\label{fig:ret2}
@@ -300,8 +313,11 @@ Evaluasi model deteksi tangan dilakukan setelah \emph{training} menggunakan metr
 \subsection{Evaluasi Pengenalan Gestur Tangan}
 Evaluasi model CNN untuk pengenalan gestur tangan didapatkan saat \emph{training} dan \emph{testing} menggunakan \emph{k-fold cross validation} dengan k = 5, dimana dilakukan validasi sebanyak 5 kali dengan skenario pengujian yang berbeda pada proses \emph{training} dan \emph{testing}.
 \emph{Training accuracy} dan \emph{testing accuracy} didapatkan pada setiap \emph{fold}. Model dengan akurasi terdinggi akan digunakan sebagai model untuk pengenalan gestur tangan.
-\subsection{Pengujian SNR}
-SNR\emph{(Signal to Noise Ratio)} adalah ukuran untuk mengukur kualitas citra terhadap citra yang dilakukan perbaikan. Citra hasil perbaikan dibandingkan dengan citra asli untuk mendapatkan nilai SNR nya. Nilai SNR yang tinggi mengindikasikan kualitas citra yang semakin baik karena rasio sinyal terhadap metode juga tinggi, sebaliknya nilai SNR yang rendah berarti kualitas citra yang di hasilkan semakin buruk atau semakin kecil dalam peningkatan kualitas citra. Pengujian SNR ini dilakukan untuk menentukan nilai dari parameter \emph{retinex} yang akan dipakai pada sistem.
+\subsection{Pengujian PSNR}
+SNR\emph{(Signal to Noise Ratio)} adalah ukuran untuk mengukur kualitas citra terhadap citra yang dilakukan perbaikan. Citra hasil perbaikan dibandingkan dengan citra asli untuk mendapatkan nilai PSNR nya. Nilai PSNR yang tinggi mengindikasikan kualitas citra yang semakin baik karena rasio sinyal terhadap metode juga tinggi, sebaliknya nilai SNR yang rendah berarti kualitas citra yang di hasilkan semakin buruk atau semakin kecil dalam peningkatan kualitas citra. Pengujian PSNR ini dilakukan untuk menentukan nilai dari parameter \emph{retinex} yang akan dipakai pada sistem. Formula PSNR ditunjukan pada persamaan xx (CV NOTE., 2019).
+\begin{equation}
+	PSNR=20\log_{10}=\left(\frac{MAX_f}{\sqrt{MSE}}\right)
+\end{equation}
 \subsection{Pengujian Deteksi Tangan Menggunakan Retinex}
 Tujuan pengujian deteksi tangan dilakukan untuk menguji sistem dalam melakukan deteksi tangan terkait dengan penurunan intensitas cahaya. Ilustrasi pengujian deteksi tangan digambarkan pada Gambar 4.7. Pengujian dilakukan dengan kondisi cahaya awal sesuai yang terjadi pada ruangan. Pada kondisi awal tersebut akan dilakukan deteksi tangan, setiap hasil dari deteksi tersebut berupa \emph{true positive} atau \emph{false positive}. Hasil deteksi akan dicatat dalam bentuk tabel seperti pada Tabel 4.1.
 % TODO: \usepackage{graphicx} required
@@ -403,7 +419,9 @@ Tahap berikutnya dilakukan penurunan intensitas cahaya, dengan mengatur cahaya l
 		\hline ... & & & &&&&&&&&&&&&&&&&&&&&&&&&&&& \\
 		\hline Angka 9 & & & &&&&&&&&&&&&&&&&&&&&&&&&&&& \\
 		\hline
+		
 	\end{tabular}
+
 \end{tabular}
 \end{table}
 \subsection{Pengujian Sistem Keseluruhan}

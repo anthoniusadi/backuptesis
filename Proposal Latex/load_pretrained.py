@@ -15,8 +15,8 @@ for train_index, val_index in kf.split(X):
     x=base_model.output
     x=GlobalAveragePooling2D()(x)
     x=Flatten()(x)
-    x=Dense(1024,activation='relu')(x) #dense layer 1
-    x=Dense(812,activation='relu')(x) #dense layer 2
-    preds=Dense(10,activation='softmax')(x) #final layer with softmax activation for N classes
-    model=Model(inputs=base_model.input,outputs=preds) #specify the inputs and outputs
+    x=Dense(1024,activation='relu')(x)
+    x=Dense(812,activation='relu')(x)
+    preds=Dense(10,activation='softmax')(x) 
+    model=Model(inputs=base_model.input,outputs=preds)
     model.summary()

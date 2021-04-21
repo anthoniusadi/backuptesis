@@ -3,7 +3,7 @@
 \contentsline {chapter}{DAFTAR ISI}{iii}{section*.2}%
 \contentsline {chapter}{DAFTAR TABEL}{vi}{section*.4}%
 \contentsline {chapter}{DAFTAR GAMBAR}{vii}{section*.6}%
-\contentsline {chapter}{INTISARI}{viii}{chapter*.8}%
+\contentsline {chapter}{INTISARI}{ix}{chapter*.8}%
 \contentsline {chapter}{\numberline {I}PENDAHULUAN}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1.}Latar Belakang Masalah}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2.}Rumusan Masalah}{4}{section.1.2}%
@@ -15,66 +15,73 @@
 \contentsline {section}{\numberline {3.1.}Computer Vision}{10}{section.3.1}%
 \contentsline {section}{\numberline {3.2.}Citra Digital}{10}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1.}Citra RGB}{11}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2.}Citra HSV}{11}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3.}Operasi Morfologi}{12}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1.}Erosi}{12}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2.}Dilasi}{13}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3.}\emph {Opening}}{13}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4.}\emph {Closing}}{13}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4.}\emph {Hand Gesture Recognition}}{13}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1.}\emph {American Sign Language}(ASL)}{13}{subsection.3.4.1}%
-\contentsline {section}{\numberline {3.5.}Retinex(Single Scale Retinex)}{14}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1.}Multiscale Retinex(MSR)}{15}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2.}Multiscale Retinex Color Restoration(MSRCR)}{16}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6.}MobileNet}{16}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1.}Depthwise Separable Convolution}{17}{subsection.3.6.1}%
-\contentsline {section}{\numberline {3.7.}MobileNetV2}{18}{section.3.7}%
-\contentsline {section}{\numberline {3.8.}Convolutional Neural Network(CNN)}{20}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1.}Local Receptive Fields}{20}{subsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.8.2.}Shared Weight}{22}{subsection.3.8.2}%
-\contentsline {subsection}{\numberline {3.8.3.}Konvolusi}{22}{subsection.3.8.3}%
-\contentsline {subsection}{\numberline {3.8.4.}Fungsi Aktivasi}{23}{subsection.3.8.4}%
-\contentsline {section}{\numberline {3.9.}Evaluasi}{24}{section.3.9}%
-\contentsline {subsection}{\numberline {3.9.1.}Confussion Matrix}{24}{subsection.3.9.1}%
-\contentsline {subsection}{\numberline {3.9.2.}Average Precicion(AP)}{25}{subsection.3.9.2}%
-\contentsline {chapter}{\numberline {IV}METODOLOGI PENELITIAN}{27}{chapter.4}%
-\contentsline {section}{\numberline {4.1.}Alat dan Bahan}{27}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1.}Alat}{27}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2.}Bahan}{27}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2.}Prosedur Kerja}{28}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1.}Analisis dan Perancangan Sistem}{28}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2.}Pra-proses}{30}{subsection.4.2.2}%
+\contentsline {section}{\numberline {3.3.}Operasi Morfologi}{11}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1.}Erosi}{11}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2.}Dilasi}{12}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3.}\emph {Opening}}{12}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4.}\emph {Closing}}{12}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4.}\emph {Hand Gesture Recognition}}{12}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1.}\emph {American Sign Language}(ASL)}{12}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.5.}Retinex(Single Scale Retinex)}{13}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1.}Multiscale Retinex(MSR)}{14}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2.}Multiscale Retinex Color Restoration(MSRCR)}{15}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6.}MobileNet}{15}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1.}Depthwise Separable Convolution}{16}{subsection.3.6.1}%
+\contentsline {section}{\numberline {3.7.}MobileNetV2}{17}{section.3.7}%
+\contentsline {section}{\numberline {3.8.}Convolutional Neural Network(CNN)}{18}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1.}Local Receptive Fields}{19}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2.}Shared Weight}{21}{subsection.3.8.2}%
+\contentsline {subsection}{\numberline {3.8.3.}Konvolusi}{21}{subsection.3.8.3}%
+\contentsline {subsection}{\numberline {3.8.4.}Fungsi Aktivasi}{22}{subsection.3.8.4}%
+\contentsline {section}{\numberline {3.9.}Evaluasi}{23}{section.3.9}%
+\contentsline {subsection}{\numberline {3.9.1.}Confussion Matrix}{23}{subsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9.2.}Average Precicion(AP)}{23}{subsection.3.9.2}%
+\contentsline {chapter}{\numberline {IV}METODOLOGI PENELITIAN}{26}{chapter.4}%
+\contentsline {section}{\numberline {4.1.}Alat dan Bahan}{26}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1.}Alat}{26}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2.}Bahan}{26}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2.}Prosedur Kerja}{27}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1.}Analisis dan Perancangan Sistem}{27}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2.}Pra-proses}{29}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3.}Pengumpulan Data}{33}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3.}Proses Pelatihan}{35}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1.}Pelatihan Gesture Recognition}{35}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2.}Pelatihan Object Detection}{36}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4.}Pengujian dan Evaluasi}{37}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1.}Evaluasi Deteksi Tangan}{37}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2.}Evaluasi Pengenalan Gestur Tangan}{38}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3.}Pengujian SNR}{38}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4.}Pengujian Deteksi Tangan Menggunakan Retinex}{38}{subsection.4.4.4}%
-\contentsline {subsection}{\numberline {4.4.5.}Pengujian Pengenalan Gestur Tangan Menggunakan Retinex}{40}{subsection.4.4.5}%
-\contentsline {subsection}{\numberline {4.4.6.}Pengujian Sistem Keseluruhan}{43}{subsection.4.4.6}%
-\contentsline {chapter}{\numberline {V}IMPLEMENTASI}{44}{chapter.5}%
-\contentsline {section}{\numberline {5.1.}Data Collection}{44}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1.}Implementasi Proses Akuisisi Citra}{44}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2.}Implementasi Data Augmentasi}{46}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3.}Pembuatan file CSV}{48}{subsection.5.1.3}%
-\contentsline {section}{\numberline {5.2.}Implementasi Data Labelling}{49}{section.5.2}%
-\contentsline {section}{\numberline {5.3.}Implementasi Pembuatan TFRecord file}{50}{section.5.3}%
+\contentsline {section}{\numberline {4.3.}Proses Pelatihan}{34}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1.}Pelatihan Gesture Recognition}{34}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2.}Pelatihan Object Detection}{35}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4.}Pengujian dan Evaluasi}{36}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1.}Evaluasi Deteksi Tangan}{36}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2.}Evaluasi Pengenalan Gestur Tangan}{37}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3.}Pengujian PSNR}{37}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4.}Pengujian Deteksi Tangan Menggunakan Retinex}{37}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5.}Pengujian Pengenalan Gestur Tangan Menggunakan Retinex}{39}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6.}Pengujian Sistem Keseluruhan}{42}{subsection.4.4.6}%
+\contentsline {chapter}{\numberline {V}IMPLEMENTASI}{43}{chapter.5}%
+\contentsline {section}{\numberline {5.1.}Data Collection}{43}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1.}Implementasi Proses Akuisisi Citra}{43}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2.}Implementasi Data Augmentasi}{45}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3.}Pembuatan file CSV}{47}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2.}Implementasi Data Labelling}{48}{section.5.2}%
+\contentsline {section}{\numberline {5.3.}Implementasi Pembuatan TFRecord file}{49}{section.5.3}%
 \contentsline {section}{\numberline {5.4.}Konfigurasi \textit {Pipeline Object Detection}}{52}{section.5.4}%
-\contentsline {section}{\numberline {5.5.}Implementasi Training}{52}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1.}Object Detection}{52}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2.}Pengenalan Gestur}{54}{subsection.5.5.2}%
-\contentsline {section}{\numberline {5.6.}Implementasi Testing}{55}{section.5.6}%
-\contentsline {chapter}{\numberline {VI}HASIL DAN PEMBAHASAN}{56}{chapter.6}%
-\contentsline {section}{\numberline {6.1.}Evaluasi Deteksi Tangan}{56}{section.6.1}%
-\contentsline {section}{\numberline {6.2.}Evaluasi Pengenalan Gestur Tangan}{56}{section.6.2}%
-\contentsline {section}{\numberline {6.3.}Pengujian SNR}{56}{section.6.3}%
-\contentsline {section}{\numberline {6.4.}Pengujian Deteksi Tangan Menggunakan Retinex}{56}{section.6.4}%
-\contentsline {section}{\numberline {6.5.}Pengujian Pengenalan Gestur Tangan Menggunakan Retinex}{56}{section.6.5}%
-\contentsline {section}{\numberline {6.6.}Pengujian Sistem Keseluruhan}{56}{section.6.6}%
-\contentsline {chapter}{\numberline {VII}KESIMPULAN DAN SARAN}{57}{chapter.7}%
-\contentsline {section}{\numberline {7.1.}Kesimpulan}{57}{section.7.1}%
-\contentsline {section}{\numberline {7.2.}Saran}{57}{section.7.2}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{58}{chapter*.47}%
+\contentsline {section}{\numberline {5.5.}Implementasi Training}{54}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1.}Object Detection}{54}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2.}Pengenalan Gestur}{55}{subsection.5.5.2}%
+\contentsline {section}{\numberline {5.6.}Implementasi Retinex}{56}{section.5.6}%
+\contentsline {section}{\numberline {5.7.}Evaluasi Model}{57}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1.}PSNR}{57}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2.}mAP}{57}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3.}Kfold Cross Validation}{58}{subsection.5.7.3}%
+\contentsline {section}{\numberline {5.8.}Implementasi Pengujian}{59}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1.}Pengujian Pengenalan Gestur Tangan}{59}{subsection.5.8.1}%
+\contentsline {subsection}{\numberline {5.8.2.}Pengujian Deteksi Objek}{61}{subsection.5.8.2}%
+\contentsline {subsection}{\numberline {5.8.3.}Pengujian Sistem Secara Keseluruhan}{63}{subsection.5.8.3}%
+\contentsline {chapter}{\numberline {VI}HASIL DAN PEMBAHASAN}{66}{chapter.6}%
+\contentsline {section}{\numberline {6.1.}Evaluasi Deteksi Tangan}{66}{section.6.1}%
+\contentsline {section}{\numberline {6.2.}Evaluasi Pengenalan Gestur Tangan}{67}{section.6.2}%
+\contentsline {section}{\numberline {6.3.}Pengujian SNR}{67}{section.6.3}%
+\contentsline {section}{\numberline {6.4.}Pengujian Deteksi Tangan}{72}{section.6.4}%
+\contentsline {section}{\numberline {6.5.}Pengujian Pengenalan Gestur Tangan}{78}{section.6.5}%
+\contentsline {section}{\numberline {6.6.}Pengujian Sistem Keseluruhan}{93}{section.6.6}%
+\contentsline {chapter}{\numberline {VII}KESIMPULAN DAN SARAN}{94}{chapter.7}%
+\contentsline {section}{\numberline {7.1.}Kesimpulan}{94}{section.7.1}%
+\contentsline {section}{\numberline {7.2.}Saran}{94}{section.7.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{95}{chapter*.88}%
